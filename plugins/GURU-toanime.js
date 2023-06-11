@@ -7,7 +7,7 @@ m.reply('*This command can turn your photo into anime*')
 let data = await q.download?.()
 let image = await uploadImage(data)
 try {
-let anime = `https://anime-api.hisoka17.repl.co/api/imagetoanime?apikey=${lolkeysapi}&img=${image}`
+let anime = `https://deepai.org/machine-learning-model/text2img?apikey=${b2f4d1ee-79d0-4a3c-96f9-b88ee9e0fbfb}&img=${image}`
 await conn.sendFile(m.chat, anime, 'error.jpg', null, m)
 } catch (i) {
 try {
