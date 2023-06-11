@@ -1,38 +1,27 @@
-from flask import Flask, request, jsonify
-from PIL import Image
-import io
-
-app = Flask(__name__)
-
-@app.route('/convert', methods=['POST'])
-def convert_image():
-    # Check if an image file was uploaded
-    if 'file' not in request.files:
-        return jsonify({'error': 'No file uploaded'})
-
-    file = request.files['file']
-
-    # Check if the file is a valid image
-    if file.filename == '':
-        return jsonify({'error': 'Invalid file'})
-
-    try:
-        # Load and process the image
-        image = Image.open(file)
-        # Apply your image-to-anime conversion logic here using a pre-trained model
-        # converted_image = your_conversion_function(image)
-        # Replace the above line with your own conversion function
-
-        # Create a file-like object to store the converted image
-        converted_image_io = io.BytesIO()
-        # Save the converted image to the file-like object in JPEG format
-        converted_image.save(converted_image_io, format='JPEG')
-        converted_image_io.seek(0)
-
-        # Return the converted image as a response
-        return jsonify({'image': converted_image_io.getvalue().hex()})
-    except Exception as e:
-        return jsonify({'error': str(e)}), 500
-
-if __name__ == '__main__':
-    app.run()
+import uploadImage from '../lib/uploadImage.js'
+let handler = async (m, { conn, text, args, usedPrefix, command }) => {
+let q = m.quoted ? m.quoted : m
+let mime = (q.msg || q).mimetype || q.mediaType || ""
+if (!/image/g.test(mime)) throw '*Respond to a image*'
+m.reply('*This command can turn your photo into anime*')    
+let data = await q.download?.()
+let image = await uploadImage(data)
+try {
+let anime = `https://anime-api.hisoka17.repl.co/api/imagetoanime?apikey=${lolkeysapi}&img=${image}`
+await conn.sendFile(m.chat, anime, 'error.jpg', null, m)
+} catch (i) {
+try {
+let anime2 = `https://api.zahwazein.xyz/photoeditor/jadianime?url=${image}&apikey=${keysxxx}`
+await conn.sendFile(m.chat, anime2, 'error.jpg', null, m) 
+} catch (a) {    
+try{    
+let anime3 = `https://api.caliph.biz.id/api/animeai?img=${image}&apikey=caliphkey`
+await conn.sendFile(m.chat, anime3, 'error.jpg', null, m) 
+} catch (e) {
+throw '*Error check if the persons face is visible*'
+}}}}
+handler.help = ["toanime"]
+handler.tags = ["tools"]
+handler.diamond = true
+handler.command = /^(imganime|toanime)$/i
+export default handler
