@@ -27,7 +27,7 @@ const sections = [
 const listMessage = {
   text: '\nHere is a list of what you can turn on and off',
   footer: igfg,
-  title: `≡ List of options`,
+	title: `≡ List of options`,
   buttonText: "Click here",
   sections
 }
@@ -57,7 +57,7 @@ const listMessage = {
       case 'detect':
       case 'detector':
         if (!m.isGroup) {
-         if (!isOwner) {
+		if (!isOwner) {
            global.dfail('group', m, conn)
           throw false
         }
@@ -101,7 +101,7 @@ const listMessage = {
         global.dfail('rowner', m, conn)
         throw false
       }
-      global.opts['self'] = !isEnable
+		global.opts['self'] = !isEnable
       break
     case 'antilink':
     case 'antilinkwa':
@@ -136,7 +136,7 @@ const listMessage = {
          if (!(isAdmin || isOwner)) {
            global.dfail('admin', m, conn)
             throw false
-           }}
+		        }}
     chat.nsfw = isEnable          
     break
 
@@ -171,7 +171,7 @@ const listMessage = {
         global.dfail('rowner', m, conn)
         throw false
       }
-      global.opts['pconly'] = isEnable
+		  global.opts['pconly'] = isEnable
       break
       
     case 'gponly':
@@ -232,6 +232,6 @@ m.reply(`
 }
 handler.help = ['en', 'dis'].map(v => v + 'able <option>')
 handler.tags = ['nable']
-handler.command = /^((en|dis)able|(tru|fals)e|(turn)?o(n|ff)|[01])$/i
+handler.command = /^((en|dis)able|(turn)?o(n|ff)|[01])$/i
 
 export default handler
