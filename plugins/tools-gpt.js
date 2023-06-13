@@ -7,8 +7,8 @@ import dotenv from 'dotenv';
 dotenv.config(); // Load environment variables from .env file
 
 const configuration = new Configuration({
-  organization: process.env.OPENAI_ORGANIZATION,
-  apiKey: process.env.OPENAI_API_KEY
+  organization: process.env.OPEN_ORGANIZATION,
+  apiKey: process.env.OPEN_API_KEY
 });
 
 const openai = new OpenAIApi(configuration);
