@@ -6,7 +6,7 @@ let handler = async (m, { conn, command, args, text }) => {
     m.react(rwait) 
 	let full = /f$/i.test(command)
     let u = /https?:\/\//.test(args[0]) ? args[0] : 'https://' + args[0]
-    let ss = await (await fetch(global.API('nrtm', '/api/ssweb-modules', { delay: 1000, url: u }))).buffer()
+    let ss = await (await fetch(global.API('nrtm', 'ssweb-modules', { delay: 1000, url: u }))).buffer()
     conn.sendFile(m.chat, ss, 'ssweb.png', '✅ Capture from the Page', m) 
    m.react(done) 
 }
