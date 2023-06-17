@@ -1,10 +1,29 @@
 {
-  "name": "ABHISHEK-SER",
-  "description": "Customizable WhatsApp Bot",
+  "name": "whatsapp-bot (ABHISHEK-SER)",
+  "description": " Whatsapp bot.",
+  "keywords": [
+    "whatsapp bot"
+  ],
   "repository": "https://github.com/AbhishekSuresh2/ABHISHEK-SER",
-  "logo": "https://replicate.delivery/pbxt/QbP6Fh3ZXwKON9SCB70ERGwwgeeSbztwKIOIzhUeXFkwnFHiA/out.png",
-  "keywords": ["bot", "whatsapp", "whatsapp-bot", "ABHISHEK-SER", "GURU-bot-md", "GURU-bot"],
-  "buildpacks": [
+  "stack": "container",
+  "env": {
+    "OPENAI_API_KEY": {
+      "description": "openai apikey",
+      "required": false,
+      "value": ""
+    },
+    "OPENAI_ORGANIZATION": {
+      "description": "openai organisation id",
+      "required": false,
+      "value": "null"
+    },
+    "REMOVE_BG_API_KEY": {
+      "description": "removebg api key",
+      "required": false,
+      "value": "only if you want to use removebg"
+    }
+    },
+    "buildpacks": [
     {
       "url": "heroku/nodejs"
     },
