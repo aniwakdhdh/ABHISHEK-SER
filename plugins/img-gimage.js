@@ -2,7 +2,7 @@ import fg from 'api-dylux'
 
 let handler  = async (m, { conn, args, text, usedPrefix, command }) => {
 
-  if (!text) throw `Image Not Found\n\n📌 Example: *${usedPrefix + command}* WhatsApp Bot`
+  if (!text) throw `Image not found\n\n📌 Example: *${usedPrefix + command}* sunny leone`
 
   let res = await fg.googleImage(text)
 
@@ -21,6 +21,5 @@ handler.command = /^(img|image|gimage|imagen)$/i
 handler.diamond = false
 
 export default handler
-
 
 
