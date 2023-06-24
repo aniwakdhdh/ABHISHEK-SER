@@ -87,6 +87,8 @@ SUPPORT GROUP: <a href="https://chat.whatsapp.com/BOLb0ICN3sAJ5dloRBw5VD"><img a
 
 - **Star ⭐ The Repo If You Like ABHISHEK-SER**
  
+## 🤩 CREDITS
 
+## BASE ORIGINAL BY [GURU](https://github.com/Guru322/GURU-BOT)
 
 
