@@ -8,36 +8,36 @@ let lkr = `❀° ┄──•••───╮
        𝘽𝙊𝙏 𝙈𝙀𝙉𝙐  
 ╰───•••──┄ °❀     
 ┏━━━ʕ•㉨•ʔ━━━┓
-⎪⌲👑 _${usedPrefix}ping_
-⎪⌲👑 _${usedPrefix}uptime_
-⎪⌲👑 _${usedPrefix}bot_
-⎪⌲👑 _${usedPrefix}owner_
-⎪⌲👑 _${usedPrefix}script_
-⎪⌲👑 _${usedPrefix}runtime_
-⎪⌲👑 _${usedPrefix}infobot_
-⎪⌲👑 _${usedPrefix}donate_
-⎪⌲👑 _${usedPrefix}groups_
-⎪⌲👑 _${usedPrefix}blocklist_
-⎪⌲👑 _${usedPrefix}listprem_
-⎪⌲👑    ABHISHEK-SER
+⎪⌲💫 _${usedPrefix}ping_
+⎪⌲💫 _${usedPrefix}uptime_
+⎪⌲💫 _${usedPrefix}bot_
+⎪⌲💫 _${usedPrefix}owner_
+⎪⌲💫 _${usedPrefix}script_
+⎪⌲💫 _${usedPrefix}runtime_
+⎪⌲💫 _${usedPrefix}infobot_
+⎪⌲💫 _${usedPrefix}donate_
+⎪⌲💫 _${usedPrefix}groups_
+⎪⌲💫 _${usedPrefix}blocklist_
+⎪⌲💫 _${usedPrefix}listprem_
+⎪⌲💫    ABHISHEK-SER
 ┗━━━ʕ•㉨•ʔ━━━┛
 
 ❀° ┄──•••───╮
      𝙊𝙒𝙉𝙀𝙍 𝙈𝙀𝙉𝙐  
 ╰───•••──┄ °❀     
 ┏━━━ʕ•㉨•ʔ━━━┓
-⎪⌲👑 _${usedPrefix}banchat_
-⎪⌲👑 _${usedPrefix}unbanchat_
-⎪⌲👑 _${usedPrefix}banuser_
-⎪⌲👑 _${usedPrefix}unbanuser_
-⎪⌲👑 _${usedPrefix}Broadcast_
-⎪⌲👑 _${usedPrefix}Broadcastgc_
-⎪⌲👑 _${usedPrefix}join_
-⎪⌲👑 _${usedPrefix}setppbot_
-⎪⌲👑 _${usedPrefix}setprefix_
-⎪⌲👑 _${usedPrefix}resetprefix_
-⎪⌲👑 _${usedPrefix}getfile_
-⎪⌲👑 _${usedPrefix}getplugin_
+⎪⌲💫 _${usedPrefix}banchat_
+⎪⌲💫 _${usedPrefix}unbanchat_
+⎪⌲💫 _${usedPrefix}banuser_
+⎪⌲💫 _${usedPrefix}unbanuser_
+⎪⌲💫 _${usedPrefix}Broadcast_
+⎪⌲💫 _${usedPrefix}Broadcastgc_
+⎪⌲💫 _${usedPrefix}join_
+⎪⌲💫 _${usedPrefix}setppbot_
+⎪⌲💫 _${usedPrefix}setprefix_
+⎪⌲💫 _${usedPrefix}resetprefix_
+⎪⌲💫 _${usedPrefix}getfile_
+⎪⌲💫 _${usedPrefix}getplugin_
 ┗━━━ʕ•㉨•ʔ━━━┛
 ${readMore}
 ❀° ┄──•••───╮
@@ -66,65 +66,65 @@ ${readMore}
        𝘿𝙇 𝙈𝙀𝙉𝙐 
 ╰───•••──┄ °❀     
 ┏━━━ʕ•㉨•ʔ━━━┓
-⎪⌲💎_${usedPrefix}play_
-⎪⌲💎_${usedPrefix}song_
-⎪⌲💎 _${usedPrefix}yta <link>_
-⎪⌲💎 _${usedPrefix}ytv <link>_
-⎪⌲💎 _${usedPrefix}ytmp3 <link>_
-⎪⌲💎 _${usedPrefix}ytmp4 <link>_
-⎪⌲💎 _${usedPrefix}gimage_
-⎪⌲💎 _${usedPrefix}pinterest_
-⎪⌲💎 _${usedPrefix}mediafire <link>_
-⎪⌲💎 _${usedPrefix}gdrive <link>_
-⎪⌲💎 _${usedPrefix}gitclone <link>_
-⎪⌲💎 _${usedPrefix}twitter <link>_
-⎪⌲💎 _${usedPrefix}tiktok <link>_
-⎪⌲💎 _${usedPrefix}tiktokstalk_
-⎪⌲💎 _${usedPrefix}instagram <link>_
-⎪⌲💎 _${usedPrefix}spotify_
-⎪⌲💎 _${usedPrefix}facebook <link>_
+⎪⌲⬇️_${usedPrefix}play_
+⎪⌲⬇️_${usedPrefix}song_
+⎪⌲⬇️ _${usedPrefix}yta <link>_
+⎪⌲⬇️ _${usedPrefix}ytv <link>_
+⎪⌲⬇️ _${usedPrefix}ytmp3 <link>_
+⎪⌲⬇️ _${usedPrefix}ytmp4 <link>_
+⎪⌲⬇️ _${usedPrefix}gimage_
+⎪⌲⬇️ _${usedPrefix}pinterest_
+⎪⌲⬇️ _${usedPrefix}mediafire <link>_
+⎪⌲⬇️ _${usedPrefix}gdrive <link>_
+⎪⌲⬇️ _${usedPrefix}gitclone <link>_
+⎪⌲⬇️ _${usedPrefix}twitter <link>_
+⎪⌲⬇️ _${usedPrefix}tiktok <link>_
+⎪⌲⬇️ _${usedPrefix}tiktokstalk_
+⎪⌲⬇️ _${usedPrefix}instagram <link>_
+⎪⌲⬇️ _${usedPrefix}spotify_
+⎪⌲⬇️ _${usedPrefix}facebook <link>_
 ┗━━━ʕ•㉨•ʔ━━━┛
 
 ❀° ┄──•••───╮
        𝙀𝘾𝙊𝙉𝙊𝙈𝙔 
 ╰───•••──┄ °❀     
 ┏━━━ʕ•㉨•ʔ━━━┓
-⎪⌲👑 _${usedPrefix}claim/daily_
-⎪⌲👑 _${usedPrefix}weekly_
-⎪⌲👑 _${usedPrefix}monthly_
-⎪⌲👑 _${usedPrefix}leaderboard_
-⎪⌲👑 _${usedPrefix}bet_
-⎪⌲👑 _${usedPrefix}heal_
-⎪⌲👑 _${usedPrefix}craft_
-⎪⌲👑 _${usedPrefix}balance_
-⎪⌲👑 _${usedPrefix}shop_
-⎪⌲👑 _${usedPrefix}sell_
-⎪⌲👑 _${usedPrefix}adventure_
-⎪⌲👑 _${usedPrefix}opencrate_
-⎪⌲👑 _${usedPrefix}mine_
-⎪⌲👑 _${usedPrefix}work_
-⎪⌲👑 _${usedPrefix}transfer_
-⎪⌲👑 _${usedPrefix}todiamond_
-⎪⌲👑 _${usedPrefix}tomoney_
+⎪⌲💰 _${usedPrefix}claim/daily_
+⎪⌲💰 _${usedPrefix}weekly_
+⎪⌲💰 _${usedPrefix}monthly_
+⎪⌲💰 _${usedPrefix}leaderboard_
+⎪⌲💰 _${usedPrefix}bet_
+⎪⌲💰 _${usedPrefix}heal_
+⎪⌲💰 _${usedPrefix}craft_
+⎪⌲💰 _${usedPrefix}balance_
+⎪⌲💰 _${usedPrefix}shop_
+⎪⌲💰 _${usedPrefix}sell_
+⎪⌲💰 _${usedPrefix}adventure_
+⎪⌲💰 _${usedPrefix}opencrate_
+⎪⌲💰 _${usedPrefix}mine_
+⎪⌲💰 _${usedPrefix}work_
+⎪⌲💰 _${usedPrefix}transfer_
+⎪⌲💰 _${usedPrefix}todiamond_
+⎪⌲💰 _${usedPrefix}tomoney_
 ┗━━━ʕ•㉨•ʔ━━━┛
 
 ❀° ┄──•••───╮
       𝙁𝙐𝙉 𝙈𝙀𝙉𝙐
 ╰───•••──┄ °❀     
 ┏━━━ʕ•㉨•ʔ━━━┓
-⎪⌲👑 _${usedPrefix}character_
-⎪⌲👑 _${usedPrefix}truth_
-⎪⌲👑 _${usedPrefix}dare_
-⎪⌲👑 _${usedPrefix}flirt_
-⎪⌲👑 _${usedPrefix}gay_
-⎪⌲👑 _${usedPrefix}shayeri_
-⎪⌲👑 _${usedPrefix}ship_
-⎪⌲👑 _${usedPrefix}waste_
-⎪⌲👑 _${usedPrefix}simpcard_
-⎪⌲👑 _${usedPrefix}hornycard_
-⎪⌲👑 _${usedPrefix}ytcomment_
-⎪⌲👑 _${usedPrefix}stupid_
-⎪⌲👑 _${usedPrefix}lolicon_
+⎪⌲😁 _${usedPrefix}character_
+⎪⌲😁 _${usedPrefix}truth_
+⎪⌲😁 _${usedPrefix}dare_
+⎪⌲😁 _${usedPrefix}flirt_
+⎪⌲😁 _${usedPrefix}gay_
+⎪⌲😁 _${usedPrefix}shayeri_
+⎪⌲😁 _${usedPrefix}ship_
+⎪⌲😁 _${usedPrefix}waste_
+⎪⌲😁 _${usedPrefix}simpcard_
+⎪⌲😁 _${usedPrefix}hornycard_
+⎪⌲😁 _${usedPrefix}ytcomment_
+⎪⌲😁 _${usedPrefix}stupid_
+⎪⌲😁 _${usedPrefix}lolicon_
 ┗━━━ʕ•㉨•ʔ━━━┛
 
 ❀° ┄──•••───╮
@@ -174,15 +174,15 @@ ${readMore}
       𝙂𝘼𝙈𝙀 𝙈𝙀𝙉𝙐 
 ╰───•••──┄ °❀     
 ┏━━━ʕ•㉨•ʔ━━━┓
-⎪⌲👑 _${usedPrefix}tictactoe_
-⎪⌲👑 _${usedPrefix}delttt_
-⎪⌲👑 _${usedPrefix}math_
-⎪⌲👑 _${usedPrefix}math answer_
-⎪⌲👑 _${usedPrefix}ppt_
-⎪⌲👑 _${usedPrefix}slot_
-⎪⌲👑 _${usedPrefix}casino_
-⎪⌲👑 _${usedPrefix}yourmom_
-⎪⌲👑 _${usedPrefix}teri mummy_
+⎪⌲🎮 _${usedPrefix}tictactoe_
+⎪⌲🎮 _${usedPrefix}delttt_
+⎪⌲🎮 _${usedPrefix}math_
+⎪⌲🎮 _${usedPrefix}math answer_
+⎪⌲🎮 _${usedPrefix}ppt_
+⎪⌲🎮 _${usedPrefix}slot_
+⎪⌲🎮 _${usedPrefix}casino_
+⎪⌲🎮 _${usedPrefix}yourmom_
+⎪⌲🎮 _${usedPrefix}teri mummy_
 ┗━━━ʕ•㉨•ʔ━━━┛
 
 ❀° ┄──•••───╮
@@ -209,36 +209,36 @@ ${readMore}
      𝙏𝙊𝙊𝙇𝙎 𝙈𝙀𝙉𝙐
 ╰───•••──┄ °❀     
 ┏━━━ʕ•㉨•ʔ━━━┓
-⎪⌲👑 _${usedPrefix}autosticker_
-⎪⌲👑 _${usedPrefix}pdf_
-⎪⌲👑 _${usedPrefix}whatmusic_
-⎪⌲👑 _${usedPrefix}calc_
-⎪⌲👑 _${usedPrefix}google_
-⎪⌲👑 _${usedPrefix}lyrics_
-⎪⌲👑 _${usedPrefix}readmore_
-⎪⌲👑 _${usedPrefix}ssweb_
-⎪⌲👑 _${usedPrefix}tts_
-⎪⌲👑 _${usedPrefix}translate_
-⎪⌲👑 _${usedPrefix}tourl_
-⎪⌲👑 _${usedPrefix}wikipedia_
-⎪⌲👑 _${usedPrefix}nowa_
-⎪⌲👑 _${usedPrefix}qrmaker_
-⎪⌲👑 _${usedPrefix}readqr_
-⎪⌲👑 _${usedPrefix}fancy_
-⎪⌲👑 _${usedPrefix}weather_
-⎪⌲👑 _${usedPrefix}siri_
-⎪⌲👑 _${usedPrefix}alexa_
-⎪⌲👑 _${usedPrefix}dalle_
-⎪⌲👑 _${usedPrefix}tocartoon_
-⎪⌲👑 _${usedPrefix}quote_
-⎪⌲👑 _${usedPrefix}technews_
-⎪⌲👑 _${usedPrefix}define_
-⎪⌲👑 _${usedPrefix}pokedex_
-⎪⌲👑 _${usedPrefix}removebg_
-⎪⌲👑 _${usedPrefix}apk_
-⎪⌲👑 _${usedPrefix}tinyurl/shorturl_
-⎪⌲👑 _${usedPrefix}readvo_
-⎪⌲👑 _${usedPrefix}true_
+⎪⌲🛠️ _${usedPrefix}autosticker_
+⎪⌲🛠️ _${usedPrefix}pdf_
+⎪⌲🛠️ _${usedPrefix}whatmusic_
+⎪⌲🛠️ _${usedPrefix}calc_
+⎪⌲🛠️ _${usedPrefix}google_
+⎪⌲🛠️ _${usedPrefix}lyrics_
+⎪⌲🛠️ _${usedPrefix}readmore_
+⎪⌲🛠️ _${usedPrefix}ssweb_
+⎪⌲🛠️ _${usedPrefix}tts_
+⎪⌲🛠️ _${usedPrefix}translate_
+⎪⌲🛠️ _${usedPrefix}tourl_
+⎪⌲🛠️ _${usedPrefix}wikipedia_
+⎪⌲🛠️ _${usedPrefix}nowa_
+⎪⌲🛠️ _${usedPrefix}qrmaker_
+⎪⌲🛠️ _${usedPrefix}readqr_
+⎪⌲🛠️ _${usedPrefix}fancy_
+⎪⌲🛠️ _${usedPrefix}weather_
+⎪⌲🛠️ _${usedPrefix}siri_
+⎪⌲🛠️ _${usedPrefix}alexa_
+⎪⌲🛠️ _${usedPrefix}dalle_
+⎪⌲🛠️ _${usedPrefix}tocartoon_
+⎪⌲🛠️ _${usedPrefix}quote_
+⎪⌲🛠️ _${usedPrefix}technews_
+⎪⌲🛠️ _${usedPrefix}define_
+⎪⌲🛠️ _${usedPrefix}pokedex_
+⎪⌲🛠️ _${usedPrefix}removebg_
+⎪⌲🛠️ _${usedPrefix}apk_
+⎪⌲🛠️ _${usedPrefix}tinyurl/shorturl_
+⎪⌲🛠️ _${usedPrefix}readvo_
+⎪⌲🛠️ _${usedPrefix}true_
 ┗━━━ʕ•㉨•ʔ━━━┛
 
 ❀° ┄──•••───╮
