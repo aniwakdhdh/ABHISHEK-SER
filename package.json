@@ -2,11 +2,11 @@
   "name": "ABHISHEK-SER",
   "version": "2.0.8",
   "description": "A modular whatsApp bot created by node.js",
-  "main": "Abhiindex.js",
+  "main": "Anyaindex.js",
   "type": "commonjs",
   "scripts": {
     "start": "bash start.sh",
-    "starts": "node Abhiindex.js"
+    "starts": "node Anyaindex.js"
   },
   "keywords": [
     "termux",
@@ -26,7 +26,7 @@
   "bugs": {
     "url": "https://github.com/AbhishekSuresh2/ABHISHEK-SER/issues"
   },
-  "author": "Abhishek Sureh",
+  "author": "Abhishek Suresh",
   "license": "GPL-3.0",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
