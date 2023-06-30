@@ -46,10 +46,10 @@ global.tip2 = `Type *${prefa}settings* to commit changes in the bot.`
 global.tip3 = `If you got a bug or error, then please report to developer asap by *${prefa}report* command.`
 
 //--------------- Menu images ----------------\\
-global.nullImage = fs.readFileSync('./AbhiMedia/Anyatestpic.jpg')
-global.Menuimage = fs.readFileSync("./AbhiMedia/Menuimg.jpg") // Thumbnail for Dashboard
-global.thumnnaiIs = fs.readFileSync("./AbhiMedia/Menuimg2.jpeg")
-global.allmenuImg = fs.readFileSync('./AbhiMedia/Allmenu.jpg') // Thumbnail for Allmenu command 
+global.nullImage = fs.readFileSync('./AbhiMedia/Abhi.jpg')
+global.Menuimage = fs.readFileSync("./AbhiMedia/Abhi.jpg") // Thumbnail for Dashboard
+global.thumnnaiIs = fs.readFileSync("./AbhiMedia/Abhi.jpg")
+global.allmenuImg = fs.readFileSync('./AbhiMedia/Abhi.jpg') // Thumbnail for Allmenu command 
 
 global.mess = {
     success: 'Done ✅',
