@@ -10,10 +10,20 @@ RUN apt-get update && \
 
 COPY package.json .
 
-RUN npm install && npm install qrcode-terminal
+RUN yarn global add npm
+
+RUN yarn global add yarn
+
+RUN yarn global add pm2
+
+RUN yarn global add forever
+
+RUN yarn install
+
+RUN rm -rf yarn*
 
 COPY . .
 
-EXPOSE 3000
+RUN yarn install
 
-CMD ["node", "index.js", "--server"]
+CMD ["node", "Abhiindex.js"]
