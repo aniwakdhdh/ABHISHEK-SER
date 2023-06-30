@@ -1,34 +1,10 @@
 {
-  "name": "whatsapp-bot (ABHISHEK-SER)",
-  "description": " Whatsapp bot.",
-  "keywords": [
-    "whatsapp bot"
-  ],
-  "repository": "https://github.com/AbhishekSuresh2/ABHISHEK-SER",
-  "stack": "container",
-  "env": {
-    "OPENAI_API_KEY": {
-      "description": "openai apikey",
-      "required": false,
-      "value": ""
-    },
-    "OPENAI_ORGANIZATION": {
-      "description": "openai organisation id",
-      "required": false,
-      "value": ""
-    },
-    "MONGO_DB": {
-      "description": "your mongodb database url",
-      "required": false,
-      "value": ""
-    },
-    "REMOVE_BG_API_KEY": {
-      "description": "removebg api key",
-      "required": false,
-      "value": ""
-    }
-    },
-    "buildpacks": [
+  "name": "ABHISHEK-SER",
+  "description": "whatsapp md bot build with nodejs",
+  "repository": "https://github.COM/AbhishekSuresh2/ABHISHEK-SER",
+  "logo": "https://replicate.delivery/pbxt/QbP6Fh3ZXwKON9SCB70ERGwwgeeSbztwKIOIzhUeXFkwnFHiA/out.png",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
+   "buildpacks": [
     {
       "url": "heroku/nodejs"
     },
@@ -38,5 +14,11 @@
     {
       "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
     }
-  ]
+  ],
+   "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "eco"
+        }
+    }
 }
