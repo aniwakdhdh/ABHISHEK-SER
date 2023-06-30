@@ -1,77 +1,77 @@
-import { watchFile, unwatchFile } from 'fs'
-import chalk from 'chalk'
-import { fileURLToPath } from 'url'
-import fs from 'fs'
-import fetch from 'node-fetch'
-import axios from 'axios'
+const fs = require('fs')
+const chalk = require('chalk')
+require('./lib/config')
 
-
-global.owner = [
-  ['919074692450', 'ABHISHEK-SURESH', true],
-  ['919074692450', 'ABHISHEK-SURESH', true],
-  [''] 
-] //Number of owners
-
-global.mods = ['919074692450','919074692450'] 
-global.prems = ['919074692450', '919074692450', '919074692450']
-global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
-global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
-global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c71a2fb', '5bd33b276d41d6b4', 'HIRO', 'kurrxd09', 'ebb6251cc00f9c63']
-global.keysxteam = keysxteammm[Math.floor(keysxteammm.length * Math.random())]
-global.keysneoxrrr = ['5VC9rvNx', 'cfALv5']
-global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())]
-global.lolkeysapi = ['BrunoSobrino']
-
-global.APIs = { // API Prefix
-  // name: 'https://website'
-  xteam: 'https://api.xteam.xyz', 
-  dzx: 'https://api.dhamzxploit.my.id',
-  lol: 'https://api.lolhuman.xyz',
-  violetics: 'https://violetics.pw',
-  neoxr: 'https://api.neoxr.my.id',
-  zenzapis: 'https://zenzapis.xyz',
-  akuari: 'https://api.akuari.my.id',
-  akuari2: 'https://apimu.my.id',
-  nrtm: 'https://fg-nrtm.ddns.net',
-  bg: 'http://bochil.ddns.net',
-  fgmods: 'https://api-fgmods.ddns.net'
+global.zApiKey = {// if this API key get expired then please go to https://www.fxacb-api.my.id and get a new api key.
+       one: "zenzkey_998568986d"
 }
-global.APIKeys = { // APIKey Here
-  // 'https://website': 'apikey'
-  'https://api.xteam.xyz': 'd90a9e986e18778b',
-  'https://api.lolhuman.xyz': '85faf717d0545d14074659ad',
-  'https://api.neoxr.my.id': `${keysneoxr}`,	
-  'https://violetics.pw': 'beta',
-  'https://zenzapis.xyz': `${keysxxx}`, 
-  'https://api-fgmods.ddns.net': 'fg-dylux'
+global.lApiKey = {// if this API key get expired then please go to https://api.lannn.me and get a new api key.
+      one: 'uMSPCuLU',
+      two: 'IOGaHu5S'
 }
 
-// Sticker WM
-global.botname = '𝙰𝙱𝙷𝙸𝚂𝙷𝙴𝙺-𝚂𝙴𝚁'
-global.premium = 'true'
-global.packname = '𝙰𝙱𝙷𝙸𝚂𝙷𝙴𝙺-𝚂𝙴𝚁🤭𝙰𝙱𝙷𝙸𝚂𝙷𝙴𝙺-𝚂𝚄𝚁𝙴𝚂𝙷' 
-global.author = 'ABHISHEK SURESH' 
-global.igfg = '▢ Follow on Instagram\nhttps://www.instagram.com/abhishek_ser\n' 
-global.dygp = 'https://chat.whatsapp.com/BOLb0ICN3sAJ5dloRBw5VD'
-global.fgsc = 'https://github.com/Guru322/GURU-BOT-V1' 
-global.fgyt = 'https://youtube.com/@comedymelodych8468'
-global.fgpyp = 'https://youtube.com/@comedymelodych8468'
-global.fglog = 'https://replicate.delivery/pbxt/QbP6Fh3ZXwKON9SCB70ERGwwgeeSbztwKIOIzhUeXFkwnFHiA/out.png' 
+
+global.botname = "ABHISHEK-SER" 
+global.author = "ABHISHEK SURESH"  
+global.packname = "𝗔𝗕𝗛𝗜𝗦𝗛𝗘𝗞-𝗦𝗘𝗥 𝗕𝗢𝗧"  
+global.myweb = "Enter Your Any Website Profile Link Here"
+global.footer = "©\t" + "ABHISHEK-SER"
+global.prefa = ['-'] // single prefix
+global.themeemoji = "🎐"
+global.socialText = `*⪧⪢ Please join this group for by bot's announcement.*`
+global.socialLink = `*⪧⪢ https://chat.whatsapp.com/BOLb0ICN3sAJ5dloRBw5VD 💝*`
 
 
-global.wait = '*⌛ _Please Wait..._*'
-global.rwait = '⌛'
-global.dmoji = '🤭'
-global.done = '✅'
-global.error = '❌' 
-global.xmoji = '🔥' 
+global.ownername = "ABHISHEK SURESH"    
+global.ownernumber = ["919074692450"]
+global.ytname = "YT: Comedy Melody CH"
+global.continent = "Asia" // your continent name 
+global.region = "India"
+global.state = "Kerala" // your state name
+global.timezone = "Asia/Kolkata" // search on google if you don't know the timezone of your country //
+global.instagramId = "abhishek_ser"
+global.email = "AbhishekSuresh2030@gmail.com"
 
-global.multiplier = 69 
-global.maxwarn = '3' // máxima advertencias
 
-let file = fileURLToPath(import.meta.url)
-watchFile(file, () => {
-  unwatchFile(file)
-  console.log(chalk.redBright("Update 'config.js'"))
-  import(`${file}?update=${Date.now()}`)
+// Greeting messages
+global.greet1 = "Good Morning ☀️" // after 3 AM
+global.greet2 = "Good Afternoon 🏜️" // after 12 PM
+global.greet3 = "Good Evening 🌆" // after 4 PM
+global.greet4 = "Good Night 😴" // after 8:30 PM
+
+
+//--------------- Tip ----------------\\
+global.tip1 = `Type *${prefa}info* for more information....`
+global.tip2 = `Type *${prefa}settings* to commit changes in the bot.`
+global.tip3 = `If you got a bug or error, then please report to developer asap by *${prefa}report* command.`
+
+//--------------- Menu images ----------------\\
+global.nullImage = fs.readFileSync('./AbhiMedia/Anyatestpic.jpg')
+global.Menuimage = fs.readFileSync("./AbhiMedia/Menuimg.jpg") // Thumbnail for Dashboard
+global.thumnnaiIs = fs.readFileSync("./AbhiMedia/Menuimg2.jpeg")
+global.allmenuImg = fs.readFileSync('./AbhiMedia/Allmenu.jpg') // Thumbnail for Allmenu command 
+
+global.mess = {
+    success: 'Done ✅',
+    admin: 'You must be an admin to use this command.',
+    botAdmin: 'The bot needs to be an admin to process this command.',
+    owner: 'You are not the owner of this bot so you cannot use this command.',
+    group: 'This command is only made for group chats.',
+    private: 'This command is only for private chats.',
+    wait: '```「▰▰▰▱▱▱▱▱▱▱」Loading...```',
+    link: 'I need a link to process this command.',
+    error: '```404 Error```',
+    ban: `You're banned from using this bot!`,
+    nsfw: 'This group is not *NSFW* enabled.',
+    banChat: 'This group is banned from using this bot, please contact owner to get unbanned.'
+}
+
+
+/*𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹 DANGER ZONE ⚠️👇 𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹𝗹*/
+let file = require.resolve(__filename)
+fs.watchFile(file, () => {
+	fs.unwatchFile(file)
+	console.log(chalk.redBright(`Update'${__filename}'`))
+	delete require.cache[file]
+	require(file)
 })
