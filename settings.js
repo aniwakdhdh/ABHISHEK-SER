@@ -47,10 +47,10 @@ global.sessionName = 'session'
 global.hituet = 0
 
 //media target
-global.thum = fs.readFileSync("./XeonMeda/theme/Abhi.jpg") //ur thumb pic
-global.log0 = fs.readFileSync("./XeonMedia/theme/Abhi.jpg") //ur logo pic
-global.err4r = fs.readFileSync("./XeonMedia/theme/Abhi.jpg") //ur error pic
-global.thumb = fs.readFileSync("./XeonMedia/theme/Abhi.jpg") //ur thumb pic
+global.thum = fs.readFileSync("./XeonMeda/theme/cheemspic.jpg") //ur thumb pic
+global.log0 = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur logo pic
+global.err4r = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur error pic
+global.thumb = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
 global.defaultpp = 'https://replicate.delivery/pbxt/QbP6Fh3ZXwKON9SCB70ERGwwgeeSbztwKIOIzhUeXFkwnFHiA/out.png' //default pp wa
 
 //menu image maker
