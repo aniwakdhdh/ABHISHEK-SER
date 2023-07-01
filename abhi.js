@@ -1,3 +1,3 @@
 {
-	"name": "ABHISHEK-SER Bot Multi Device "
+	"name": "ABHISHEK-SER Multi Device "
 }
