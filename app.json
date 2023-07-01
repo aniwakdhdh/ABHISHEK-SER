@@ -2,7 +2,7 @@
   "name": "ABHISHEK-SER",
   "description": "whatsapp md bot build with nodejs",
   "repository": "https://github.COM/AbhishekSuresh2/ABHISHEK-SER",
-  "logo": "https://replicate.delivery/pbxt/QbP6Fh3ZXwKON9SCB70ERGwwgeeSbztwKIOIzhUeXFkwnFHiA/out.png",
+  "logo": "",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
    "buildpacks": [
     {
