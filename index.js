@@ -46,8 +46,8 @@ const owner = JSON.parse(fs.readFileSync('./database/owner.json'))
 
 const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
 
-require('./XeonCheems8.js')
-nocache('../XeonCheems8.js', module => console.log(color('[ CHANGE ]', 'green'), color(`'${module}'`, 'green'), 'Updated'))
+require('./ABHISHEK-SER.js')
+nocache('../ABHISHEK-SER.js', module => console.log(color('[ CHANGE ]', 'green'), color(`'${module}'`, 'green'), 'Updated'))
 require('./index.js')
 nocache('../index.js', module => console.log(color('[ CHANGE ]', 'green'), color(`'${module}'`, 'green'), 'Updated'))
 
@@ -64,7 +64,7 @@ async function XeonBotIncBot() {
                 return msg.message || undefined
             }
             return {
-                conversation: "Cheems Bot Here"
+                conversation: "ABHISHEK-SER Bot Here"
             }
         }
     })
@@ -109,15 +109,15 @@ try{
 			await XeonBotInc.sendMessage(owner + "@s.whatsapp.net", { text: `*Bot started!*\n\n\n_Don't forget to support, bro :)_\n\nYouTube: https://youtube.com/@DGXeon\n\nGitHub: https://github.com/DGXeon\n\nInstsgram: https://instagram.com/unicorn_xeon?igshid=MTIzZWQxMDU=\n\nWhatsApp Pm: wa.me/916909137213\n\n WhatsApp Gc1: https://chat.whatsapp.com/Dc2qyVeK8JbJq8Gr3U1pKH\n\nWhatsApp Gc2: https://chat.whatsapp.com/BW0o3ZyiAF5Azb1bIqG9Ue\n\nWhatsApp Gc3: https://chat.whatsapp.com/Dc2qyVeK8JbJq8Gr3U1pKH\n\nDonate: https://i.ibb.co/w46VQ8D/Picsart-22-10-08-06-46-30-674.jpg \n\n\n_*Thanks to*_\n_*Lord Buddha*_\n_*Myself*_\n_*Family*_\n_*Friends who helped me assemble this script*_` });
 			await XeonBotInc.groupAcceptInvite("Dc2qyVeK8JbJq8Gr3U1pKH") //auto join group, if group link is invalid or if bot number is not able to join the group, then it will give error in the startup
 			//await delay(1000 * 2) 
-             //XeonBotInc.sendMessage(xeonchat, { text : 'Yooo wassup guys, cheems bot here! 👀' })
+             //XeonBotInc.sendMessage(xeonchat, { text : 'Yooo wassup guys, ABHISHEK-SER bot here! 👀' })
 			console.log(color(` `,'magenta'))
             console.log(color(`🌿Connected to => ` + JSON.stringify(XeonBotInc.user, null, 2), 'yellow'))
 			await delay(1999)
             console.log(chalk.yellow(`\n\n               ${chalk.bold.blue(`[ ${botname} ]`)}\n\n`))
             console.log(color(`< ================================================== >`, 'cyan'))
-	        console.log(color(`\n${themeemoji} YT CHANNEL: Xeon`,'magenta'))
-            console.log(color(`${themeemoji} GITHUB: DGXeon `,'magenta'))
-            console.log(color(`${themeemoji} INSTAGRAM: @unicorn_xeon `,'magenta'))
+	        console.log(color(`\n${themeemoji} YT CHANNEL: Comedy Melody CH`,'magenta'))
+            console.log(color(`${themeemoji} GITHUB: AbhishekSuresh2 `,'magenta'))
+            console.log(color(`${themeemoji} INSTAGRAM: @abhishek_ser `,'magenta'))
             console.log(color(`${themeemoji} WA NUMBER: ${owner}`,'magenta'))
             console.log(color(`${themeemoji} CREDIT: ${wm}\n`,'magenta'))
 		}
