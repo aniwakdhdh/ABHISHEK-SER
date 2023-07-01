@@ -1,4 +1,4 @@
-const chalk = require("chalk")
+mconst chalk = require("chalk")
 const fs = require("fs")
 
 //aumto presence update
@@ -21,37 +21,37 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.owner = ['916909137213'] //ur owner number
-global.ownernomer = "916909137213" //ur owner number2
-global.ownername = "🦄Dream Guy Xeon" //ur owner name
-global.ytname = "YT: Xeon" //ur yt chanel name
-global.socialm = "GitHub: DGXeon" //ur github or insta name
+global.owner = ['919074692450'] //ur owner number
+global.ownernomer = "919074692450" //ur owner number2
+global.ownername = "ABHISHEK SURESH"//ur owner name
+global.ytname = "YT: Comedy Melody CH" //ur yt chanel name
+global.socialm = "GitHub: AbhishekSuresh2" //ur github or insta name
 global.location = "India, Mizoram, Aizawl" //ur location
 
 //new
-global.botname = "Cheems Bot MD V8"
-global.ownernumber = '916909137213'
-global.ownername = '🦄드림 가이 Xeon'
-global.ownerNumber = ["916909137213@s.whatsapp.net"]
-global.ownerweb = "https://youtube.com/@DGXeon"
-global.websitex = "https://youtu.be/L_SIk59QeAU"
-global.wagc = "https://chat.whatsapp.com/Dc2qyVeK8JbJq8Gr3U1pKH"
-global.themeemoji = '🪀'
-global.wm = "Xeon Bot Inc."
-global.botscript = 'https://github.com/DGXeon/CheemsBot-MD6' //script link
+global.botname = "𝗔𝗕𝗛𝗜𝗦𝗛𝗘𝗞-𝗦𝗘𝗥"
+global.ownernumber = '919074692450'
+global.ownername = 'ABHISHEK SURESH'
+global.ownerNumber = ["919074692450@s.whatsapp.net"]
+global.ownerweb = "https://youtube.com/@comedymelodych8468"
+global.websitex = "https://youtu.be/Xb1-Oh1_msQ"
+global.wagc = "https://chat.whatsapp.com/BOLb0ICN3sAJ5dloRBw5VD"
+global.themeemoji = '👻'
+global.wm = "ABHISHEK-SER Bot."
+global.botscript = 'https://github.com/AbhishekSuresh2/ABHISHEK-SER' //script link
 global.packname = "Sticker By"
-global.author = "🦄드림 가이 Xeon\n\n+916909137213"
-global.creator = "916909137213@s.whatsapp.net"
+global.author = "ABHISHEK SURESH\n\n+919074692450"
+global.creator = "919074692450@s.whatsapp.net"
 global.prefa = ['','!','.','#','&']
 global.sessionName = 'session'
 global.hituet = 0
 
 //media target
-global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
-global.log0 = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur logo pic
-global.err4r = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur error pic
-global.thumb = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
-global.defaultpp = 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png?q=60' //default pp wa
+global.thum = fs.readFileSync("./AbhiMedia/theme/Abhi.jpg") //ur thumb pic
+global.log0 = fs.readFileSync("./AbhiMedia/theme/Abhi.jpg") //ur logo pic
+global.err4r = fs.readFileSync("./AbhiMedia/theme/Abhi.jpg") //ur error pic
+global.thumb = fs.readFileSync("./AbhiMedia/theme/Abhi.jpg") //ur thumb pic
+global.defaultpp = 'https://replicate.delivery/pbxt/QbP6Fh3ZXwKON9SCB70ERGwwgeeSbztwKIOIzhUeXFkwnFHiA/out.png' //default pp wa
 
 //menu image maker
 global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
@@ -61,7 +61,7 @@ global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutp
 
 //messages
 global.mess = {
-    success: 'Here you go!', 
+    success: 'Here You Go!', 
 }
 
 let file = require.resolve(__filename)
