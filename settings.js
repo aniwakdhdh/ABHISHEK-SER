@@ -39,7 +39,7 @@ global.wagc = "https://chat.whatsapp.com/BOLb0ICN3sAJ5dloRBw5VD"
 global.themeemoji = '👻'
 global.wm = "ABHISHEK-SER Bot."
 global.botscript = 'https://github.com/AbhishekSuresh2/ABHISHEK-SER' //script link
-global.packname = "Sticker By"
+global.packname = "𝗔𝗕𝗛𝗜𝗦𝗛𝗘𝗞-𝗦𝗘𝗥👻ABHISHEK-SURESH"
 global.author = "ABHISHEK SURESH\n\n+919074692450"
 global.creator = "919074692450@s.whatsapp.net"
 global.prefa = ['','!','.','#','&']
@@ -47,10 +47,10 @@ global.sessionName = 'session'
 global.hituet = 0
 
 //media target
-global.thum = fs.readFileSync("./AbhiMedia/theme/Abhi.jpg") //ur thumb pic
-global.log0 = fs.readFileSync("./AbhiMedia/theme/Abhi.jpg") //ur logo pic
-global.err4r = fs.readFileSync("./AbhiMedia/theme/Abhi.jpg") //ur error pic
-global.thumb = fs.readFileSync("./AbhiMedia/theme/Abhi.jpg") //ur thumb pic
+global.thum = fs.readFileSync("./XeonMeda/theme/Abhi.jpg") //ur thumb pic
+global.log0 = fs.readFileSync("./XeonMedia/theme/Abhi.jpg") //ur logo pic
+global.err4r = fs.readFileSync("./XeonMedia/theme/Abhi.jpg") //ur error pic
+global.thumb = fs.readFileSync("./XeonMedia/theme/Abhi.jpg") //ur thumb pic
 global.defaultpp = 'https://replicate.delivery/pbxt/QbP6Fh3ZXwKON9SCB70ERGwwgeeSbztwKIOIzhUeXFkwnFHiA/out.png' //default pp wa
 
 //menu image maker
