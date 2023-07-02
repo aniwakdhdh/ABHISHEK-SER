@@ -1,91 +1,116 @@
-# ABHISHEK-SER
-<div align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=F710B1&center=true&width=910&height=100&lines=I'M+ABHISHEK-SER;Multi+Divice+Whatsapp+Bot;Coded+By+ABHISHEK SURESH" alt="Typing SVG" /></a>
-  
-<p align="center">  
-  <a href="https://youtube.com/@comedymelodych8468">
-    <img alt=ABHISHEK-SER height="300" src="https://replicate.delivery/pbxt/QbP6Fh3ZXwKON9SCB70ERGwwgeeSbztwKIOIzhUeXFkwnFHiA/out.png">
-   
-</a> 
-    
-</p>
+
+
+<h1 align="center">ꪶ𝗖𝗵𝗲𝗲𝗺𝘀 𝗕𝗼𝘁-𝗠𝗗 𝗩8ꫂ<br></h1>
 <p align="center">
-<a 
+<img src="https://i.ibb.co/cLtCXVm/cheemspic.jpg" width="540" height="280" />
+</p>
 
-####  
-ABHISHEK-SER Multi Device Whatsapp Bot.
+<p align="center">
+Cheems Bot Multi Device is a automated whatsapp bot created by <a href="https://github.com/DGXeon" target="_blank">Xeon</a> using <a href="https://github.com/adiwajshing/Baileys" target="_blank">Baileys</a> and <a href="https://github.com/nodejs" target="_blank">Nodejs</a>. Dont forget to give a star bro.
+</p>
 
-***
+<p align="center">
+<a href="https://youtu.be/L_SIk59QeAU"><img title="Size" src="https://img.shields.io/badge/Tutorial-Video-green"></a>
+</p>
 
-#### SETUP
+------
 
-1. Fork The Repo
-    <br>
-<a href='https://github.com/AbhishekSuresh2/ABHISHEK-SER/fork' target="_blank"><img alt='Fork Repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+# ```Bot Info```
+<p align="center">
+<a href="https://github.com/DGXeon/followers"><img title="Followers" src="https://img.shields.io/github/followers/DGXeon?color=red&style=flat-square"></a>
+<a href="https://github.com/DGXeon/CheemsBot-MD8/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/DGXeon/CheemsBot-MD8?color=blue&style=flat-square"></a>
+<a href="https://github.com/DGXeon/CheemsBot-MD8/network/members"><img title="Forks" src="https://img.shields.io/github/forks/DGXeon/CheemsBot-MD8?color=red&style=flat-square"></a>
+<a href="https://github.com/DGXeon/CheemsBot-MD8/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/DGXeon/CheemsBot-MD8?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/DGXeon/CheemsBot-MD8"><img title="Open Source" src="https://img.shields.io/badge/Author-Xeon%20Bot%20Inc.-red?v=103"></a>
+<a href="https://github.com/DGXeon/CheemsBot-MD8/"><img title="Size" src="https://img.shields.io/github/repo-size/DGXeon/CheemsBot-MD8?style=flat-square&color=green"></a>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FDGXeon%2FCheemsBot-MD8&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
+<a href="https://github.com/DGXeon/CheemsBot-MD8/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
+</p>
+<p align='center'>
+    </p>
 
-2. Scan The QR And Upload creds.json In Your Fork⚠️ (Will Recieve It On Your Bot Number After Scanning)
-    <br>
-<a href='https://replit.com/@Abhibro1223344/ABHISHEK-SER-Bot-Qr-Code-Generator?v=1' target="_blank"><img alt='SCAN QR' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+-------
 
+## ```Connect With Me```
+<p align="center">
+<a href="https://wa.me/916909137213"><img src="https://img.shields.io/badge/Contact Xeon-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://chat.whatsapp.com/Dc2qyVeK8JbJq8Gr3U1pKH"><img src="https://img.shields.io/badge/Join Official GC-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A"><img src="https://img.shields.io/badge/Subscribe Xeon-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://youtube.com/@DGXeon" /><br>
+</p>
 
+## ```Donate Me```
 
-#### DEPLOY TO Heroku 
+- [`FamPay`](https://i.ibb.co/w46VQ8D/Picsart-22-10-08-06-46-30-674.jpg)
 
-1. If You Don't Have An Account In Heroku. Create A Account.
-     <br>
-<p align="center"><a href="https://signup.heroku.com"> <img src="https://img.shields.io/badge/heroku%20Account-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="left">
+Scan qr code from the above button, u can pay through GooglePay, Paytm, PhonePe and FamPay.
+</p>
 
-2. Watch the following video to create Heroku acc for free.
-    <br>
-<p align="center"><a href="https://www.youtube.com/watch?v=J_Sq5OxK8ZE"> <img src="https://img.shields.io/badge/heroku%20Tutorial-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+## ```Bot Support Group Chats```
 
-3. Now Deploy
-    <br>
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/AbhishekSuresh2/ABHISHEK-SER> <img src="https://img.shields.io/badge/Heroku%20Deploy-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+- [`1st GC`](https://chat.whatsapp.com/Dc2qyVeK8JbJq8Gr3U1pKH)
+- [`2nd GC`](https://chat.whatsapp.com/BW0o3ZyiAF5Azb1bIqG9Ue)
+- [`3rd GC`](https://chat.whatsapp.com/KMymhLdGcjPHihOkrfHW7q)
 
-#### DEPLOY TO Replit 
+# Setup For Deployment 👇
 
-1. If You don't have an account in Replit. Create a account.
-    <br>
-<p align="center"><a href="https://replit.com/signup"> <img src="https://img.shields.io/badge/replit%20Account-blue?style=for-the-badge&logo=replit" width="220" height="38.45"/></a></p>
+- FORK THE REPOSITORY [Here](https://github.com/DGXeon/CheemsBot-MD8/fork)
 
-2. Now Deploy
-    <br>
-<p align="center"><a href="https://repl.it/github/AbhishekSuresh2/ABHISHEK-SER"> <img src="https://img.shields.io/badge/replit%20Deploy-blue?style=for-the-badge&logo=replit" width="220" height="38.45"/></a></p>
+## `Scan QR Code For Session`
+[![Cheems Bot](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@DGXeon/Cheems-Bot-Multi-Auth-Session-Generator?v=1)
 
-#### DEPLOY TO COOLIFY (Error occurs when server gets overloaded)
+## ` BUILDPACKS`
 
-1. If You don't have an account in Coolify. Create a account.
-    <br>
-<p align="center"><a href="http://65.21.52.72:3000/register"> <img src="https://img.shields.io/badge/coolify%20Account-blue?style=for-the-badge&logo=coolify" width="220" height="38.45"/></a></p>
+```
+https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
+https://github.com/clhuang/heroku-buildpack-webp-binaries.git
+```
 
-2. Now Deploy
-    <br>
-<p align="center"><a href="https://youtu.be/hBxSyqyeoFU"> <img src="https://img.shields.io/badge/Coolify%20Deploy-blue?style=for-the-badge&logo=coolify" width="220" height="38.45"/></a></p>
-  
-  ### Deploy To Mogenius
-   
-  ### Deploy Tutorial
-  <p align="center"><a href="https://youtu.be/vkGGYRmqrXg"> <img src="https://img.shields.io/badge/How To%20Deploy-red?style=for-the-badge&logo=youtube" width="220" height="38.45"/></a></p>
-  
-1. If You Dont Have Account In Mogenius. Create A Account.
-     <br>
-<p align="center"><a href="https://studio.mogenius.com/studio/cloud-space/cloud-space-overview"> <img src="https://img.shields.io/badge/mogenius%20Account-blue?style=for-the-badge&logo=mogenius" width="220" height="38.45"/></a></p>
-  
-2. Now Deploy
-    <br>
-  <p align="center"><a href="https://studio.mogenius.com/studio/cloud-space/cloud-space-overview"> <img src="https://img.shields.io/badge/mogenius%20Deploy-blue?style=for-the-badge&logo=mogenius" width="220" height="38.45"/></a></p>
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DGXeon/CheemsBot-MD8/)
 
- ## Guide
+# Install Manually 👇
+## `Requirements`
+* [Node.js](https://nodejs.org/en/)
+* [Git](https://git-scm.com/downloads)
+* [FFmpeg](https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2020-12-08-13-03/ffmpeg-n4.3.1-26-gca55240b8c-win64-gpl-4.3.zip)
+* [Libwebp](https://developers.google.com/speed/webp/download)
+* Any text editor
+## `Clone Repo & Installation dependencies`
+```bash
+git clone https://github.com/DGXeon/CheemsBot-MD8.git
+cd CheemsBot-MD8
 
- - [Termux Hosting Guide](https://github.com/ABHISHEKSURESH2/ABHISHEK-SER/blob/main/Termux-Guide.md)
- 
- 
- ## Support
-
-SUPPORT GROUP: <a href="https://chat.whatsapp.com/BOLb0ICN3sAJ5dloRBw5VD"><img alt="WhatsApp" src="https://camo.githubusercontent.com/2157131829ac512183ee8f8b6c6f803688a4cc66a2e686602844e80478401a7c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6f696e2047726f75702d3235443336363f7374796c653d666f722d7468652d6261646765266c6f676f3d7768617473617070266c6f676f436f6c6f723d7768697465"/></a>
-
-- **Star ⭐ The Repo If You Like ABHISHEK-SER**
- 
-
-
+npm start
+```
+## `For Termux/Ssh/Ubuntu`
+```bash
+apt update
+apt upgrade
+pkg update && pkg upgrade
+pkg install bash
+pkg install libwebp
+pkg install git -y
+pkg install nodejs -y 
+pkg install ffmpeg -y 
+pkg install wget
+pkg install imagemagick -y
+git clone https://github.com/DGXeon/CheemsBot-MD8
+cd CheemsBot-MD8
+npm start
+```
+## `For VPS`
+```bash
+apt install nodejs 
+apt install git 
+apt apt install ffmpeg 
+apt apt install libwebp 
+apt apt install imagrmagick
+apt install bash
+git clone https://github.com/DGXeon/CheemsBot-MD8
+cd CheemsBot-MD8
+npm start
+```
+## `For 24/7 Activation (Termux)`
+```bash
+npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
+```
