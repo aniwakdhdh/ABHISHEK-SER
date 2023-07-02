@@ -25,7 +25,7 @@ global.packname = "𝗔𝗕𝗛𝗜𝗦𝗛𝗘𝗞-𝗦𝗘𝗥"
 global.myweb = "https://github.com/AbhishekSuresh2"
 global.footer = "©\t" + "𝗔𝗕𝗛𝗜𝗦𝗛𝗘𝗞-𝗦𝗘𝗥"
 global.prefa = ['-'] // single prefix
-global.themeemoji = "📍"
+global.themeemoji = "👻"
 global.socialText = `*⪧⪢ Please join this group for by bot's announcement.*`
 global.socialLink = `*⪧⪢ https://chat.whatsapp.com/BOLb0ICN3sAJ5dloRBw5VD 💝*`
 
