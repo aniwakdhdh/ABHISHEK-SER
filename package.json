@@ -2,11 +2,11 @@
   "name": "ABHISHEK-SER",
   "version": "2.0.8",
   "description": "A modular whatsApp bot created by node.js",
-  "main": "Abhiindex.js",
+  "main": "Anyaindex.js",
   "type": "commonjs",
   "scripts": {
     "start": "bash start.sh",
-    "starts": "node Abhiindex.js"
+    "starts": "node Anyaindex.js"
   },
   "keywords": [
     "termux",
