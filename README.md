@@ -25,7 +25,7 @@ ABHISHEK-SER Multi Device Whatsapp Bot.
 
 2. Scan The QR And Upload creds.json In Session Folder⚠️(Will Recieve It On Your Bot Number After Scanning)
     <br>
-<a href='https://replit.com/@Abhibro1223344/ABHISHEK-SER-Bot-Multi-Auth-Session-Generator?v=1' target="_blank"><img alt='SCAN QR' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+<a href='QR WILL ADD SOON⚠️' target="_blank"><img alt='SCAN QR' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 
 
