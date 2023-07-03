@@ -29,7 +29,7 @@ global.socialm = "GitHub: AbhishekSuresh2" //ur github or insta name
 global.location = "India, Idukki, Kerala" //ur location
 
 //new
-global.botname = "ABHISHEK SURESH"
+global.botname = "ABHISHEK-SER"
 global.ownernumber = '919074692450'
 global.ownername = 'ABHISHEK SURESH'
 global.ownerNumber = ["919074692450@s.whatsapp.net"]
