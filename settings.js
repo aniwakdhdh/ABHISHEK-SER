@@ -24,7 +24,7 @@ global.doc6 = 'application/vnd.android.package-archive'
 global.owner = ['919074692450'] //ur owner number
 global.ownernomer = "919074692450" //ur owner number2
 global.ownername = "ABHISHEK SURESH"//ur owner name
-global.ytname = "YT: Comedy Melody Ch" //ur yt chanel name
+global.ytname = "YT: Comedy Melody CH" //ur yt chanel name
 global.socialm = "GitHub: AbhishekSuresh2" //ur github or insta name
 global.location = "India, Idukki, Kerala" //ur location
 
