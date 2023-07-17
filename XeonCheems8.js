@@ -4347,7 +4347,7 @@ case 'glue':
 case '1917': 
 case 'leaves': {
 
-if (!q) return replygcxeon(`Example : ${prefix+command} XeonBotInc`) 
+if (!q) return replygcxeon(`Example : ${prefix+command} ABHISHEK-SER`) 
 XeonStickWait()
 let link
 if (/candy/.test(command)) link = 'https://textpro.me/create-christmas-candy-cane-text-effect-1056.html'
