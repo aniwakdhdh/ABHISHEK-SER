@@ -29,53 +29,46 @@ ABHISHEK-SER Multi Device Whatsapp Bot.
 
 
 
-#### DEPLOY TO Heroku 
+## ABHISHEK-SER Deploy Method
 
-1. If You Don't Have An Account In Heroku. Create A Account.
-     <br>
-<p align="center"><a href="https://signup.heroku.com"> <img src="https://img.shields.io/badge/heroku%20Account-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+-------
 
-2. Watch the following video to create Heroku acc for free.
-    <br>
-<p align="center"><a href="https://www.youtube.com/watch?v=J_Sq5OxK8ZE"> <img src="https://img.shields.io/badge/heroku%20Tutorial-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+### Deploy Codespace
 
-3. Now Deploy
-    <br>
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/AbhishekSuresh2/ABHISHEK-SER> <img src="https://img.shields.io/badge/Heroku%20Deploy-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<a href="https://github.com/codespaces/new"><img title="ABHISHEK-SER Deploy CodeSpace" src="https://img.shields.io/badge/DEPLOY CODESPACE-h?color=black&style=for-the-badge&logo=visualstudiocode"></a>
 
-#### DEPLOY TO Replit 
+---
+### Deploy Heroku 
 
-1. If You don't have an account in Replit. Create a account.
-    <br>
-<p align="center"><a href="https://replit.com/signup"> <img src="https://img.shields.io/badge/replit%20Account-blue?style=for-the-badge&logo=replit" width="220" height="38.45"/></a></p>
+<a href="https://heroku.com/deploy?template=https://github.com/AbhishekSuresh2/ABHISHEK-SER/"><img title="ABHISHEK-SER Deploy Heroku" src="https://img.shields.io/badge/DEPLOY HEROKU-h?color=black&style=for-the-badge&logo=heroku"></a>
 
-2. Now Deploy
-    <br>
-<p align="center"><a href="https://repl.it/github/AbhishekSuresh2/ABHISHEK-SER"> <img src="https://img.shields.io/badge/replit%20Deploy-blue?style=for-the-badge&logo=replit" width="220" height="38.45"/></a></p>
+---
+### Deploy Railway
 
-#### DEPLOY TO COOLIFY (Error occurs when server gets overloaded)
+<a href="https://railway.app/new"><img title="ABHISHEK-SER Deploy Railway" src="https://img.shields.io/badge/DEPLOY RAILWAY-h?color=black&style=for-the-badge&logo=Railway"></a>
 
-1. If You don't have an account in Coolify. Create a account.
-    <br>
-<p align="center"><a href="http://65.21.52.72:3000/register"> <img src="https://img.shields.io/badge/coolify%20Account-blue?style=for-the-badge&logo=coolify" width="220" height="38.45"/></a></p>
 
-2. Now Deploy
-    <br>
-<p align="center"><a href="https://youtu.be/hBxSyqyeoFU"> <img src="https://img.shields.io/badge/Coolify%20Deploy-blue?style=for-the-badge&logo=coolify" width="220" height="38.45"/></a></p>
-  
-  ### Deploy To Mogenius
-   
-  ### Deploy Tutorial
-  <p align="center"><a href="https://youtu.be/vkGGYRmqrXg"> <img src="https://img.shields.io/badge/How To%20Deploy-red?style=for-the-badge&logo=youtube" width="220" height="38.45"/></a></p>
-  
-1. If You Dont Have Account In Mogenius. Create A Account.
-     <br>
-<p align="center"><a href="https://studio.mogenius.com/studio/cloud-space/cloud-space-overview"> <img src="https://img.shields.io/badge/mogenius%20Account-blue?style=for-the-badge&logo=mogenius" width="220" height="38.45"/></a></p>
-  
-2. Now Deploy
-    <br>
-  <p align="center"><a href="https://studio.mogenius.com/studio/cloud-space/cloud-space-overview"> <img src="https://img.shields.io/badge/mogenius%20Deploy-blue?style=for-the-badge&logo=mogenius" width="220" height="38.45"/></a></p>
+---
+### Deploy Mogenius
 
+<a href="https://studio.mogenius.com/studio/cloud-space/cloud-space-overview"><img title="ABHISHEK-SER Deploy Mogenius" src="https://img.shields.io/badge/DEPLOY MOGENIUS-h?color=black&style=for-the-badge&logo=genius"></a>
+
+---
+### Deploy Coolify
+
+<a href="https://coolify.io/"><img title="ABHISHEK-SER Deploy Coolify" src="https://img.shields.io/badge/DEPLOY COOLIFY-h?color=black&style=for-the-badge&logo=coolify"></a>
+
+---
+### Deploy Koyeb
+
+<a href="https://app.koyeb.com"><img title="ABHISHEK-SER Deploy Koyeb" src="https://img.shields.io/badge/DEPLOY KOYEB-h?color=black&style=for-the-badge&logo=koyeb"></a>
+
+---
+### Deploy Replit
+
+<a href="https://replit.com/github/AbhishekSuresh2/ABHISHEK-SER"><img title="ABHISHEK-SER Deploy Replit" src="https://img.shields.io/badge/DEPLOY REPLIT-h?color=black&style=for-the-badge&logo=Replit"></a>
+
+---
  ## Guide
 
  - [Termux Hosting Guide](https://github.com/ABHISHEKSURESH2/ABHISHEK-SER/blob/main/Termux-Guide.md)
