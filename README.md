@@ -80,8 +80,4 @@ SUPPORT GROUP: <a href="https://chat.whatsapp.com/BOLb0ICN3sAJ5dloRBw5VD"><img a
 
 - **Star ⭐ The Repo If You Like ABHISHEK-SER**
  
-## 🤩 CREDITS
-
-## Thanks To [XEON](https://github.com/DGXeon)
-
 
