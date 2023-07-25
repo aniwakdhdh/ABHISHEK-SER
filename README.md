@@ -23,9 +23,9 @@ ABHISHEK-SER Multi Device Whatsapp Bot.
     <br>
 <a href="https://github.com/AbhishekSuresh2/ABHISHEK-SER/fork"><img title="ABHISHEK-SER" src="https://img.shields.io/badge/FORK ABHISHEK SER-h?color=black&style=for-the-badge&logo=stackshare"></a>
 
-2. Scan The Qr Code And Upload creds.json In Session Folder⚠️(Will Recieve It On Your Bot Number After Scanning)
+2. Scan The Qr Code And Upload abhi.data.json To Your Fork🎯(Will Recieve It On Your Bot Number After Scanning)
     <br>
-<a href="https://replit.com/@Abhibro1223344/ABHISHEK-SER-Bot-Multi-Auth-Session-Generator?v=1"><img title="ABHISHEK-SER Scan Qr" src="https://img.shields.io/badge/SCAN QR CODE-h?color=black&style=for-the-badge&logo=msi"></a>
+<a href="https://replit.com/@Abhibro1223344/ABHISHEK-SER-Bot-Qr-Code-Generator?v=1"><img title="ABHISHEK-SER Scan Qr" src="https://img.shields.io/badge/SCAN QR CODE-h?color=black&style=for-the-badge&logo=msi"></a>
 
 
 
