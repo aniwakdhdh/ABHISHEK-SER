@@ -3,7 +3,7 @@ let handler = async(m, { conn, usedPrefix, command }) => {
 
     let don = `
 ≡ *DONATION*
-Send Redeem Code To This WhatsApp Number +919074692450 👻`
+Share ABHISHEK-SER Bot Link And Support. Git Link https://github.com/AbhishekSuresh2/ABHISHEK-SER`
 let img = 'https://replicate.delivery/pbxt/QbP6Fh3ZXwKON9SCB70ERGwwgeeSbztwKIOIzhUeXFkwnFHiA/out.png'
 conn.sendFile(m.chat, img, 'img.jpg', don, m)
 }
