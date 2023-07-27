@@ -1,7 +1,7 @@
 
 import { addExif } from '../lib/sticker.js'
 let handler = async (m, { conn, text, args }) => {
-  if (!m.quoted) throw 'respond to a sticker'
+  if (!m.quoted) throw 'Respond To A Sticker'
   let stiker = false
        let stick = args.join(" ").split("|");
        let f = stick[0] !== "" ? stick[0] : packname;
@@ -10,7 +10,7 @@ let handler = async (m, { conn, text, args }) => {
     let mime = m.quoted.mimetype || ''
     if (!/webp/.test(mime)) throw 'respond to a sticker'
     let img = await m.quoted.download()
-    if (!img) throw 'Responde to sticker!'
+    if (!img) throw 'Responde To Sticker!'
     stiker = await addExif(img, f, g)
   } catch (e) {
     console.error(e)
