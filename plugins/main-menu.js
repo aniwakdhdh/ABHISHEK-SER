@@ -71,7 +71,7 @@ ${readMore}
 │ _${usedPrefix}tiktok <link>_
 │ _${usedPrefix}tiktokstalk_
 │ _${usedPrefix}spotify_
-│ _${usedPrefix}facebook <link>_
+│ _${usedPrefix}fb <link>_
 ╰─────────────⦁
 
 ╭───❮ *𝙴𝙲𝙾𝙽𝙾𝙼𝚈 𝙼𝙴𝙽𝚄* ❯
