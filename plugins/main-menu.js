@@ -110,6 +110,19 @@ ${readMore}
 │ _${usedPrefix}lolicon_
 ╰─────────────⦁
 
+╭───❮ *𝙰𝚄𝙳𝙸𝙾 𝙼𝙴𝙽𝚄* ❯
+│ _${usedPrefix}bass_
+│ _${usedPrefix}blown_
+│ _${usedPrefix}deep_
+│ _${usedPrefix}earrape_
+│ _${usedPrefix}fat_
+│ _${usedPrefix}fast_
+│ _${usedPrefix}nightcore_
+│ _${usedPrefix}reverse_
+│ _${usedPrefix}squrrel_
+│ _${usedPrefix}slow_
+╰─────────────⦁
+
 ╭───❮ *𝙰𝙽𝙸𝙼𝙴 𝙼𝙴𝙽𝚄* ❯
 │ _${usedPrefix}waifu_
 │ _${usedPrefix}neko_
@@ -160,6 +173,7 @@ ${readMore}
 │ _${usedPrefix}yourmom_
 │ _${usedPrefix}teri mummy_
 ╰─────────────⦁
+
 
 ╭───❮ *𝚂𝚃𝙸𝙲𝙺𝙴𝚁  𝙼𝙴𝙽𝚄* ❯
 │ _${usedPrefix}sticker_
