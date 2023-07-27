@@ -4,10 +4,10 @@ import fg from 'api-dylux'
 let handler = async (m, { conn, args, text, usedPrefix, command }) => {
 
  let chat = global.db.data.chats[m.chat]
-  if (!chat.nsfw) throw `🚫 this group doesnot support nsfw \n\nto turn on  \n*${usedPrefix}enable* nsfw`
+  if (!chat.nsfw) throw `🚫 This Group Doesnot Support nsfw \n\nTo Turn On  \n*${usedPrefix}enable* nsfw`
   let user = global.db.data.users[m.sender].age
-  if (user < 17) throw `❎ age must be 18 to use this feature`
-  if (!text) throw `✳️ what to search?\n📌 Use : *${usedPrefix + command} <search>*\n\nExample:- Hot desi bhabi or u can use link also\nExample .xnxx link *`
+  if (user < 17) throw `❎ Age Must Be 18 To Use This Feature`
+  if (!text) throw `✳️ What To Search?\n📌 Use : *${usedPrefix + command} <search>*\n\nExample:- Hot desi bhabi Or U an use Link Also\nExample .xnxx Link *`
     
     m.react(rwait)
     if (text.includes('http://') || text.includes('https://')) {
@@ -23,7 +23,7 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
 `.trim(), m, false, { asDocument: chat.useDocument })
  m.react(done)
  } catch (e) {
-    m.reply(`🔴 Error : we are trying hard to fix`)
+    m.reply(`🔴 Error : We Are Trying Hard To Fix`)
  }
     } else {
         try {
@@ -39,7 +39,7 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
               let ff = json.result.map((v, i) => `${i + 1}┃ *Title* : ${v.title}\n*Link:* ${v.link}\n`).join('\n') 
               if (json.status) m.reply(ff)
             } catch (e) {
-              m.reply(`🔴 Error: we are trying hard to fix it`)
+              m.reply(`🔴 Error: We Are Trying Hard To Fix It`)
                }
     }
 }
