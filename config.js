@@ -64,6 +64,7 @@ global.rwait = '⌛'
 global.dmoji = '🤭'
 global.done = '✅'
 global.error = '❌' 
+global.list = '📃' 
 global.xmoji = '🔥' 
 
 global.multiplier = 69 
