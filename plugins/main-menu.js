@@ -223,7 +223,7 @@ ${readMore}
 │   𝙰𝙱𝙷𝙸𝚂𝙷𝙴𝙺 𝚂𝚄𝚁𝙴𝚂𝙷☘️
 ╰────────────⦁`  
 conn.sendFile(m.chat, pp, 'perfil.jpg', lkr, m, false, { mentions: [who] })
-m.react(📃)
+m.react(done)
 }
 handler.help = ['allmenu']
 handler.tags = ['main']
