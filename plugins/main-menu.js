@@ -44,6 +44,7 @@ ${readMore}
 │ _${usedPrefix}getbio *<@tag>*_
 │ _${usedPrefix}resetlink_
 │ _${usedPrefix}link_
+│ _${usedPrefix}invite_
 │ _${usedPrefix}setpp *<image>*_
 │ _${usedPrefix}setname *<text>*_
 │ _${usedPrefix}setdesc *<text>*_
