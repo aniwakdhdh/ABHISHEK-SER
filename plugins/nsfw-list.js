@@ -25,7 +25,7 @@ m.react(rwait)
   handler.tags = ['nsfw'];
   handler.command = ['nsfw'];
   handler.group = true
-  handler.register = true;
+  handler.register = false;
 
   export default handler;
   
