@@ -103,6 +103,10 @@ ${readMore}
 │ _${usedPrefix}gay_
 │ _${usedPrefix}shayeri_
 │ _${usedPrefix}ship_
+│ _${usedPrefix}kill_
+│ _${usedPrefix}kiss_
+│ _${usedPrefix}pat_
+│ _${usedPrefix}slap_
 │ _${usedPrefix}waste_
 │ _${usedPrefix}simpcard_
 │ _${usedPrefix}hornycard_
@@ -219,7 +223,7 @@ ${readMore}
 │   𝙰𝙱𝙷𝙸𝚂𝙷𝙴𝙺 𝚂𝚄𝚁𝙴𝚂𝙷☘️
 ╰────────────⦁`  
 conn.sendFile(m.chat, pp, 'perfil.jpg', lkr, m, false, { mentions: [who] })
-m.react(done)
+m.react(📃)
 }
 handler.help = ['allmenu']
 handler.tags = ['main']
