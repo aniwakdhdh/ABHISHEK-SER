@@ -11,7 +11,7 @@ let handler = async (m, { conn, command, args }) => {
 ‣ *Nominal ammount* : + ${count}💎 
 ‣ *Used* : -${xpperdiamond * count} XP
 └──────────────`, m)
-  } else conn.reply(m.chat, `❎ you dont have enough xp for *${count}* Diamonds💎\n\nyou can get xp from games and economy*`, m)
+  } else conn.reply(m.chat, `❎ You Dont Have Enough Xp For *${count}* Diamonds💎\n\nYou Can Get Xp From Games And Economy*`, m)
 }
 handler.help = ['todiamond', 'todiamondall']
 handler.tags = ['econ']
