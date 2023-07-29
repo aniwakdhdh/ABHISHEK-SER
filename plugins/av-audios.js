@@ -2,8 +2,8 @@
 let handler = m => m
 handler.all = async function (m) {
 
-    if (/^buenos días$/i.test(m.text) ) {
-      let av = 'https://f.top4top.io/m_2437qgtmd1.mp3'
+    if (/^bot$/i.test(m.text) ) {
+      let av = 'https://i.imgur.com/4j4xNh7.mp4'
       this.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
      }
 
