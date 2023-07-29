@@ -16,7 +16,7 @@ switch (type) {
 	if (!text) throw too
 	if (!text.includes('+')) throw too  
 	let [a, b] = text.split`+`   
-	let loda = global.API('fgmods', '/api/girlneko', { text: a, text2: b}, 'apikey')
+	let loda = 'https://oni-chan.my.id/api/canvas/nekosad?text1=${encodeURIComponent(a.trim())}&text2=${encodeURIComponent(b.trim())}&apikey=Y'
 	conn.sendFile(m.chat, loda, 'logo.png', `✅ Result`, m)
 	m.react(done)
 	break 
