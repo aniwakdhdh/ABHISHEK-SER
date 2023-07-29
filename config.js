@@ -63,7 +63,8 @@ global.wait = '*⌛ _Please Wait..._*'
 global.rwait = '⌛'
 global.dmoji = '🤭'
 global.done = '✅'
-global.error = '❌'  
+global.error = '❌' 
+global.mlc = '📃'
 global.xmoji = '🔥' 
 
 global.multiplier = 69 
