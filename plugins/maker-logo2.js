@@ -1,6 +1,6 @@
 let handler = async (m, { conn, args, text, usedPrefix, command }) => {
-	let tee = `🎯 Enter A Short Text\n\n📌 Example  : *${usedPrefix + command}* ABHISHEK`
-	let too = `🎯 Separate The Text With A *+* \n\n📌 Example : \n*${usedPrefix + command}* ABHISHEK *+* SER`
+	let tee = `✳️ Enter a short text\n\n📌 Example  : *${usedPrefix + command}* GURU`
+	let too = `✳️ Separate the text with a *+* \n\n📌 Example : \n*${usedPrefix + command}* GURU *+* BOT`
 	
 	m.react(rwait);
 	
@@ -9,7 +9,7 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
 	switch (type) {
 	  case 'gfx1':
 		if (!text) throw tee;
-		let chut = global.API('fgmods', '/api/kaneki', { text }, 'apikey)`;
+		let chut = `https://oni-chan.my.id/api/canvas/kaneki?name=${encodeURIComponent(text)}&apikey=Y`;
 		conn.sendFile(m.chat, chut, 'logo.png', `✅ Result`, m);
 		m.react(done);
 		break;
