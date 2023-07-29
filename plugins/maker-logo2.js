@@ -9,7 +9,7 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
 	switch (type) {
 	  case 'gfx1':
 		if (!text) throw tee;
-		let chut = `https://oni-chan.my.id/api/canvas/kaneki?name=${encodeURIComponent(text)}&apikey=Y`;
+		let chut = global.API('fgmods', '/api/kaneki', { text }, 'apikey)`;
 		conn.sendFile(m.chat, chut, 'logo.png', `✅ Result`, m);
 		m.react(done);
 		break;
