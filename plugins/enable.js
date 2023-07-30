@@ -151,7 +151,17 @@ const listMessage = {
       isUser = true
       user.chatbot = isEnable
      break
-     
+    
+    case 'bgmbot':
+    case 'autobgm':
+      isAll = true
+      if (!isOwner) {
+        global.dfail('owner', m, conn)
+        throw false
+      }
+      bot.restrict = isEnable
+      break
+		  
     case 'restrict':
     case 'restringir':
       isAll = true
@@ -206,6 +216,7 @@ const listMessage = {
 └─────────────
 ┌─⊷ *OWNER*
 ▢ public
+▢ bgmbot
 ▢ onlydm
 ▢ grouponly
 └─────────────
