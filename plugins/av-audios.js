@@ -22,7 +22,7 @@ handler.all = async function (m) {
   
   const user = global.db.data.users[m.sender];
   
-  if (!user.bgmbot) {
+  if (!bot.bgmbot) {
     return true;
   }
   
