@@ -3,7 +3,7 @@ let handler = m => m
 handler.all = async function (m) {
 
     if (/^bot$/i.test(m.text) ) {
-      let av = 'LINK HERE.mp3'
+      let av = 'http://sndup.net/vj9w'
       this.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
      }
 
