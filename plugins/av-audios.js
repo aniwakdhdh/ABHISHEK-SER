@@ -7,6 +7,7 @@ const user = global.db.data.users[m.sender];
   if (!owner.bgmbot) {
     return true;
   }
+
     if (/^.alive$/i.test(m.text) ) {
       let av = 'https://s31.aconvert.com/convert/p3r68-cdx67/rcc9m-v7zgz.mp3'
       this.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
