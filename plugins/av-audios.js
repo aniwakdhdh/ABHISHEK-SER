@@ -3,7 +3,7 @@ let handler = m => m
 handler.all = async function (m) {
 
     if (/^bot$/i.test(m.text) ) {
-      let av = 'http://codeskulptor-demos.commondatastorage.googleapis.com/pang/pop.mp3'
+      let av = 'https://imgur.io/EpRs8Lb'
       this.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
      }
 
