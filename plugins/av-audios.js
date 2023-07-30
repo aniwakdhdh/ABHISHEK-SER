@@ -3,7 +3,7 @@ let handler = m => m
 handler.all = async function (m) {
 
     if (/^bot$/i.test(m.text) ) {
-      let av = 'https://www.dropbox.com/scl/fi/t2qvd49lc9y0yfrla8mr9/Abhi.mp3?rlkey=gsphf7ejzgd29dccdfkghp6x3&dl=0'
+      let av = 'https://drive.google.com/file/d/1Iza7iWsqCx5x6-Cza2Ta7rASMPoZ9xrI/view?usp=sharing'
       this.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
      }
 
