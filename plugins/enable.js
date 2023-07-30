@@ -160,7 +160,7 @@ const listMessage = {
         global.dfail('owner', m, conn)
         throw false
       }
-      bot.restrict = isEnable
+      bot.bgmbot = isEnable
       break
 		  
     case 'restrict':
