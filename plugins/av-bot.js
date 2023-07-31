@@ -5,7 +5,7 @@ let name = conn.getName(m.sender)
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let av = `./src/mp3/${pickRandom(["Abhi", "Abhi", "Abhi", "Abhi", "Abhi"])}.mp3`
 
-m.reply( `👋Hello ${taguser} Need Help?  Type .help `)
+m.reply( `👋Hello ${taguser} Need Help?  Type .menu `)
 conn.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
 } 
 
