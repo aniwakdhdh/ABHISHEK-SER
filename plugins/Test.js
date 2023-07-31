@@ -1,7 +1,7 @@
 export async function before(m, { isAdmin, isBotAdmin }) {
   if (m.isBaileys || !m.isGroup) return false;
 
-  const kickMessage = isAdmin
+  let kickMessage = isAdmin
     ? `❌ *Message detected* You are the admin of this group and I cannot remove you or this group message.`
     : `❌ *you are not admin kick out from grp  .`;
 
