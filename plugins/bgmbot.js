@@ -1,7 +1,4 @@
 let bgm = require('../media/bgm.json');
-module.exports = async(conn, m, vars) => {
-if((m.key.id.startsWith("BAE5") && m.key.id.length == 16)) return;
-const {BGMBOT,PREFIX} = vars;
 let prefix = PREFIX =='false' ? '': PREFIX;
 let isFalseOrNot = prefix==''?'i£':prefix;
 if(m.client.body.startsWith(isFalseOrNot)) return;
