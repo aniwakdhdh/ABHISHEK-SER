@@ -1,7 +1,7 @@
-let handler = m => m
+p0let handler = m => m
 handler.all = async function (m) {
 
-    if (/^.alive$/i.test(m.text) ) {
+    if (/^.alive|bot$/i.test(m.text) ) {
       let av = '../media/voice/Abhi.mp3'
       this.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
      }
@@ -11,7 +11,7 @@ handler.all = async function (m) {
      this.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
    }
 
-  if (/^NAME HERE$/i.test(m.text) ) {
+  if (/^hi|hai$/i.test(m.text) ) {
     let av = '../media/voice/.mp3'
     this.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
    }
