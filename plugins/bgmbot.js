@@ -1,30 +1,22 @@
-let bgm = require('../media/bgm.json');
-let prefix = PREFIX =='false' ? '': PREFIX;
-let isFalseOrNot = prefix==''?'i£':prefix;
-if(m.client.body.startsWith(isFalseOrNot)) return;
- let audios=[], mp3, chk=[];
- let add = m.client.body.toLowerCase().trim();
- if(add.includes(' ')){
- add = add.split(' ');
-    add.map((p)=>{
-    chk.push(p)
-    })
-    } else {
-    chk.push(add)
-  }
- if(BGMBOT !="true") return;
- for (let key in bgm) {
- let a = [];a.push(key)
-  a.map((a)=>{
-  chk.forEach((c)=>{
-  if(c == a.toLowerCase()){
-  mp3 = bgm[key];
-  audios.push(mp3)
-  mp3 = audios[Math.floor(Math.random() * audios.length)];
-           }
-       })
-    })
-  }
- if(mp3 === undefined) return;
- return conn.sendMessage(m.from,{ audio: { url: mp3.trim() }, mimetype: "audio/mp4",ptt: true}, { quoted: m } );
-}
+let handler = m => m
+handler.all = async function (m) {
+
+    if (/^Hi$/i.test(m.text) ) {
+      let av = '../media/bgm.json'
+      this.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
+     }
+
+  if (/^bgm|test$/i.test(m.text) ) {
+     let av = 'https://s17.aconvert.com/convert/p3r68-cdx67/hqu5k-r5v1c.mp3'
+     this.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
+   }
+
+  if (/^NAME HERE$/i.test(m.text) ) {
+    let av = 'LINK HERE'
+    this.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
+   }
+  
+return !0
+ }
+ 
+export default handler
