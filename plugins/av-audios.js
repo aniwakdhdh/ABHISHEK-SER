@@ -2,17 +2,17 @@ let handler = m => m
 handler.all = async function (m) {
 
     if (/^.alive$/i.test(m.text) ) {
-      let av = '../media/Abhi.mp3'
+      let av = '../media/voice/Abhi.mp3'
       this.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
      }
 
   if (/^bgm|test$/i.test(m.text) ) {
-     let av = 'https://s17.aconvert.com/convert/p3r68-cdx67/hqu5k-r5v1c.mp3'
+     let av = '../media/voice/.mp3'
      this.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
    }
 
   if (/^NAME HERE$/i.test(m.text) ) {
-    let av = 'LINK HERE'
+    let av = '../media/voice/.mp3'
     this.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
    }
   
