@@ -18,7 +18,7 @@ const handler = async (m, {conn, text, args, usedPrefix, command}) => {
         const anime3 = `https://api.caliph.biz.id/api/animeai?img=${image}&apikey=caliphkey`;
         await conn.sendFile(m.chat, anime3, 'error.jpg', null, m);
       } catch (e) {
-        throw '*❌Thd Face Of The Person Not Visible*';
+        throw '*❌The Face Of The Person Not Visible*';
       }
     }
   }
