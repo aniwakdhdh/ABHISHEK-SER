@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 const handler = async (m, {conn, groupMetadata, usedPrefix, text, args, command}) => {
-  if (!text) throw `* Example: ${usedPrefix + command} Samsung*`;
+  if (!text) throw `*Enter A Ringtone Name 📌Example: ${usedPrefix + command} Samsung*`;
   const anu = await ringtone(text);
   const result = anu[Math.floor(Math.random() * anu.length)];
   conn.sendMessage(m.chat, {audio: {url: result.audio}, fileName: result.title+'.mp3', mimetype: 'audio/mpeg'}, {quoted: m});
