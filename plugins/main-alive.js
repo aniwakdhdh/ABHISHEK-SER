@@ -62,7 +62,7 @@ let str = `
 │ *Time* :${wib} 
 │ *Date* :${date}
 ╰────────────⦁
-│Type _${usedPrefix}menu To
+│Type ${usedPrefix}menu To
 │Get My Menu📃
 ╰────────────⦁`
     conn.sendFile(m.chat, pp, 'perfil.jpg', str, m, false, { mentions: [who] })
