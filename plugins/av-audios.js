@@ -7,12 +7,12 @@ handler.all = async function (m) {
      }
 
   if (/^bgm|test$/i.test(m.text) ) {
-     let av = '../media/voice/.mp3'
+     let av = '../media/voice/bgm.mp3'
      this.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
    }
 
   if (/^hi|hai$/i.test(m.text) ) {
-    let av = '../media/voice/.mp3'
+    let av = '../media/voice/hi.mp3'
     this.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
    }
   
