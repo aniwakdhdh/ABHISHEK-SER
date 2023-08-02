@@ -40,7 +40,7 @@ let str = `
 ╰────────────⦁
 │ *Bot Name* : ${botname}
 │ *Owner Name* : ${author}
-│ *Developer Name* : 𝙰𝙱𝙷𝙸𝚂𝙷𝙴𝙺 𝚂𝚄𝚁𝙴𝚂𝙷
+│ *Developer Name* : 𝙰𝙱𝙷𝙸𝚂𝙷𝙴𝙺-𝚂𝚄𝚁𝙴𝚂𝙷
 │ *Platform* : linux
 │ *Uptime* : ${uptime}
 │ *Experience:* ${exp}
