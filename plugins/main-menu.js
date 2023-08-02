@@ -103,7 +103,7 @@ ${readMore}
 │ _${usedPrefix}dare_
 │ _${usedPrefix}flirt_
 │ _${usedPrefix}gay_
-│ _${usedPrefix}shayeri_
+│ _${usedPrefix}meme_
 │ _${usedPrefix}ship_
 │ _${usedPrefix}kill_
 │ _${usedPrefix}kiss_
