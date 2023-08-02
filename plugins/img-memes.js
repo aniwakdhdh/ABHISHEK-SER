@@ -1,17 +1,27 @@
-/*
-     ig : https://www.instagram.com/fg98._/
-*/
-import hispamemes from 'hispamemes'
+import axios from 'axios';
 
-let handler = async (m, { conn, usedPrefix, command }) => {
-	
-	const meme = hispamemes.meme()
-    conn.sendFile(m.chat, meme, '', '', m)
-    m.react('😆') 
-}
-handler.help = ['meme']
-handler.tags = ['img']
-handler.command = ['meme', 'memes'] 
-handler.diamond = true
+const handler = async (m, { conn, usedPrefix, command }) => {
+  try {
+    const response = await axios.get('https://meme-api.com/gimme', {
+      responseType: 'json', 
+    });
 
-export default handler
+    const memeData = response.data;
+    const imageUrl = memeData.url;
+    const title = memeData.title;
+
+    
+    conn.sendFile(m.chat, imageUrl, 'meme.jpg', title, m);
+    m.react('😆');
+  } catch (error) {
+    console.error(error);
+    m.reply('Sorry, An Error Occurred While Fetching The Meme.');
+  }
+};
+
+handler.help = ['meme'];
+handler.tags = ['img'];
+handler.command = ['meme', 'memes'];
+handler.diamond = false;
+
+export default handler;
