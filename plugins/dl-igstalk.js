@@ -8,7 +8,7 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
   const res3 = await res2.json();
   const json = JSON.parse(JSON.stringify(res));
   const iggs = `
-╭───────────────────❮
+╭─────────────❮
 ▢ *UserName:* ${json.username}
 ▢ *NickName:* ${json.fullname}
 ▢ *Followers:* ${json.followers}
@@ -16,7 +16,7 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
 ▢ *Post:* ${json.post}
 ▢ *Link:* https://instagram.com/${json.username.replace(/^@/, '')}
 ▢ *Bio:* ${json.bio}
-╰───────────────────⦁`.trim();
+╰─────────────⦁`.trim();
   const aa = `${res3.result.photo_profile || res.profile}`;
   await conn.sendFile(m.chat, aa, 'error.jpg', iggs, m);
 };
