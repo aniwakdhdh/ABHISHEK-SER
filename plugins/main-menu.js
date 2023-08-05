@@ -177,8 +177,6 @@ ${readMore}
 │ _${usedPrefix}ppt_
 │ _${usedPrefix}slot_
 │ _${usedPrefix}casino_
-│ _${usedPrefix}yourmom_
-│ _${usedPrefix}teri mummy_
 ╰─────────────⦁
 
 
