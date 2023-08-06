@@ -1,18 +1,31 @@
-import {search, download} from 'aptoide-scraper';
-const handler = async (m, {conn, usedPrefix: prefix, command, text}) => {
- if (!text) throw `*🎯 Enter The Name Of The *Apk* You Want To Search.*`;
-  try {    
-    const searchA = await search(text);
-    const data5 = await download(searchA[0].id);
-    let response = `📲 *ABHI MOD DL* 📲\n\n📌 *Nombre:* ${data5.name}\n📦 *Package:* ${data5.package}\n🕒 *Última actualización:* ${data5.lastup}\n📥 *Tamaño:* ${data5.size}`
-    await conn.sendMessage(m.chat, {image: {url: data5.icon}, caption: response}, {quoted: m});
- if (data5.size.includes('GB') || data5.size.replace(' MB', '') > 999) {
-      return await conn.sendMessage(m.chat, {text: '*[ ⛔ ] El archivo es demasiado pesado por lo que no se enviará.*'}, {quoted: m});
+import { download } from 'aptoide-scraper';
+
+let handler = async (m, { conn, usedPrefix: prefix, command, text }) => {
+  try {
+    if (command === 'apk') {
+      if (!text) throw `🎯Please Provide The *Apk* Name You Want To Download.`;
+
+      await conn.reply(m.chat, global.wait, m);
+      let data = await download(text);
+
+      if (data.size.replace(' MB', '') > 200) {
+        return await conn.sendMessage(m.chat, { text: '*⚠️The File Is Too Large.*' }, { quoted: m });
+      }
+
+      if (data.size.includes('GB')) {
+        return await conn.sendMessage(m.chat, { text: '*⚠️The File Is Too Large.*' }, { quoted: m });
+      }
+
+      await conn.sendMessage(
+        m.chat,
+        { document: { url: data.dllink }, mimetype: 'application/vnd.android.package-archive', fileName: data.name + '.apk', caption: null },
+        { quoted: m }
+      );
     }
-    await conn.sendMessage(m.chat, {document: {url: data5.dllink}, mimetype: 'application/vnd.android.package-archive', fileName: data5.name + '.apk', caption: null}, {quoted: m});
   } catch {
-    throw `*[❗] Error, no se encontrarón resultados para su búsqueda.*`;
-  }    
+    throw `*❌An Error Occurred. Make Sure To Provide A Valid Link.*`;
+  }
 };
-handler.command = /^(modapk$/i;
+
+handler.command = /^apk$/i;
 export default handler;
