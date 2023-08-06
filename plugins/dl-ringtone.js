@@ -9,7 +9,7 @@ handler.command = ['ringtone'];
 export default handler;
 async function ringtone(title) {
   return new Promise((resolve, reject) => {
-    axios.get('https://meloboom.com/es/search/'+title).then((get) => {
+    axios.get('https://www.zedge.net/find/ringtones/'+title).then((get) => {
       const $ = cheerio.load(get.data);
       const hasil = [];
       $('#__next > main > section > div.jsx-2244708474.container > div > div > div > div:nth-child(4) > div > div > div > ul > li').each(function(a, b) {
