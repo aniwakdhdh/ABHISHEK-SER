@@ -204,6 +204,8 @@ ${readMore}
 │ _${usedPrefix}autosticker_
 │ _${usedPrefix}pdf_
 │ _${usedPrefix}whatmusic_
+│ _${usedPrefix}tempmail_
+│ _${usedPrefix}checkmail_
 │ _${usedPrefix}calc_
 │ _${usedPrefix}google_
 │ _${usedPrefix}lyrics_
