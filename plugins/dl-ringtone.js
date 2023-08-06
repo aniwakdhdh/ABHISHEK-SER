@@ -13,7 +13,7 @@ async function ringtone(title) {
       const $ = cheerio.load(get.data);
       const hasil = [];
       $('#__next > main > section > div.jsx-2244708474.container > div > div > div > div:nth-child(4) > div > div > div > ul > li').each(function(a, b) {
-        hasil.push({title: $(b).find('h4').text(), source: 'https://meloboom.com/'+$(b).find('a').attr('href'), audio: $(b).find('audio').attr('src')});
+        hasil.push({title: $(b).find('h4').text(), source: 'https://www.zedge.net/'+$(b).find('a').attr('href'), audio: $(b).find('audio').attr('src')});
       });
       resolve(hasil);
     });
