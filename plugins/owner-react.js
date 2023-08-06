@@ -1,5 +1,5 @@
 const { bot } = require('../lib/')
-bot(
+let(
 	{
 		pattern: 'react ?(.*)',
 		fromMe: true,
