@@ -3,7 +3,7 @@ handler.all = async function (m) {
 
     if (/^test$/i.test(m.text) ) {
       let av = 'https://i.ibb.co/4M7xYVx/30302726e59c.webp
-      this.sendFile(m.chat, av, 'webp', null, m, true, { type: 'webp', ptt: false })
+      this.sendFile(m.chat, av, 'webp', null, m, true, { type: 'webp',true })
      }
 
   if (/^hi$/i.test(m.text) ) {
