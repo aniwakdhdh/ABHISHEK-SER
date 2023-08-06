@@ -6,10 +6,8 @@ let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let av = `${pickRandom(["test", "Abhi", "Abhi", "Abhi", "hi"])}`
 
 m.reply( `👋Hello ${taguser} Good Night My Friend Sweet Dreams`)
-conn.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
-} 
 
-handler.customPrefix = /^.gn$/i
+handler.customPrefix = /^(gn|good night|gnight|gnigh8)$/i
 handler.command = new RegExp
 
 export default handler
