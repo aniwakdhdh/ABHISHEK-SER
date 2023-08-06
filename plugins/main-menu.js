@@ -67,7 +67,7 @@ ${readMore}
 │ _${usedPrefix}play_
 │ _${usedPrefix}play2_
 │ _${usedPrefix}yts_
-│ _${usedPrefix}ig <link>_
+│ _${usedPrefix}insta <link>_
 │ _${usedPrefix}img_
 │ _${usedPrefix}pinterest_
 │ _${usedPrefix}mediafire <link>_
