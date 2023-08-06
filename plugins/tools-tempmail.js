@@ -47,7 +47,7 @@ ${message.text}
         const replyMessage = `*Messages In* ${text}:\n\n${messages}`;
         m.reply(replyMessage);
       } else {
-        m.reply(`*No Messages Found In ${text}.*`);
+        m.reply(`*❌No Messages Found In ${text}.*`);
       }
     } catch (error) {
       console.error('Error:', error);
