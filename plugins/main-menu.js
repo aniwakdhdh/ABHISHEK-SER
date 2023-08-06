@@ -120,6 +120,12 @@ ${readMore}
 │ _${usedPrefix}lolicon_
 ╰─────────────⦁
 
+╭───❮ *𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙴𝚁 𝙼𝙴𝙽𝚄* ❯
+│ _${usedPrefix}toanime_
+│ _${usedPrefix}mp3_
+╰─────────────⦁
+
+
 ╭───❮ *𝚁𝙰𝙽𝙳𝙾𝙼 𝙼𝙴𝙽𝚄* ❯
 │ _${usedPrefix}cr7_
 │ _${usedPrefix}messi_
@@ -213,7 +219,6 @@ ${readMore}
 │ _${usedPrefix}ssweb_
 │ _${usedPrefix}tts_
 │ _${usedPrefix}trt_
-│ _${usedPrefix}mp3_
 │ _${usedPrefix}wiki_
 │ _${usedPrefix}nowa_
 │ _${usedPrefix}qrmaker_
