@@ -14,7 +14,7 @@ export async function before(m, {isAdmin, isBotAdmin, isOwner}) {
 
   if (isToxic && chat.antiToxic && !isOwner && !isAdmin) {
     user.warn += 1;
-    if (!(user.warn >= 5)) await m.reply(`${user.warn == 1 ? `Hola *@${m.sender.split`@`[0]}*` : `*@${m.sender.split`@`[0]}*`}, The Word (${isToxic}) Is Prohibited In This Bot *${user.warn}/5* Warning`, false, {mentions: [m.sender]});
+    if (!(user.warn >= 5)) await m.reply(`${user.warn == 1 ? `Hey *@${m.sender.split`@`[0]}*` : `*@${m.sender.split`@`[0]}*`}, The Word (${isToxic}) Is Prohibited In This Bot *${user.warn}/5* Warning`, false, {mentions: [m.sender]});
   }
 
   if (user.warn >= 5) {
