@@ -46,6 +46,8 @@ ${readMore}
 │ _${usedPrefix}getbio *<@tag>*_
 │ _${usedPrefix}resetlink_
 │ _${usedPrefix}link_
+│ _${usedPrefix}on/off antilink_
+│ _${usedPrefix}on/off antidelete_
 │ _${usedPrefix}invite_
 │ _${usedPrefix}setpp *<image>*_
 │ _${usedPrefix}setname *<text>*_
@@ -55,6 +57,7 @@ ${readMore}
 │ _${usedPrefix}hidetag *<text/image/audio/vid>*_
 │ _${usedPrefix}warn *<@tag>*_
 │ _${usedPrefix}unwarn *<@tag>*_
+│ _${usedPrefix}listwarn_
 │ _${usedPrefix}group *<open/close>*_
 │ _${usedPrefix}enable_
 │ _${usedPrefix}tagall_
