@@ -123,6 +123,8 @@ ${readMore}
 ╭───❮ *𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙴𝚁 𝙼𝙴𝙽𝚄* ❯
 │ _${usedPrefix}toanime_
 │ _${usedPrefix}mp3_
+│ _${usedPrefix}toimg_
+│ _${usedPrefix}tovid_
 ╰─────────────⦁
 
 
@@ -201,8 +203,6 @@ ${readMore}
 │ _${usedPrefix}smaker_
 │ _${usedPrefix}getsticker_
 │ _${usedPrefix}emix_
-│ _${usedPrefix}toimg_
-│ _${usedPrefix}tovid_
 │ _${usedPrefix}attp_
 ╰─────────────⦁
 
