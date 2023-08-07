@@ -27,6 +27,8 @@ let lkr = `╭───❮ *𝙱𝙾𝚃 𝙼𝙴𝙽𝚄* ❯
 │ _${usedPrefix}unbanchat_
 │ _${usedPrefix}ban_
 │ _${usedPrefix}unban_
+│ _${usedPrefix}banlist_
+│ _${usedPrefix}blocklist_
 │ _${usedPrefix}bc_
 │ _${usedPrefix}bcgc_
 │ _${usedPrefix}join_
