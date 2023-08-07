@@ -128,7 +128,7 @@ ${readMore}
 
 ╭───❮ *𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙴𝚁 𝙼𝙴𝙽𝚄* ❯
 │ _${usedPrefix}toanime_
-│ _${usedPrefix}mp3_
+│ _${usedPrefix}tomp3_
 │ _${usedPrefix}toimg_
 │ _${usedPrefix}tovid_
 ╰─────────────⦁
