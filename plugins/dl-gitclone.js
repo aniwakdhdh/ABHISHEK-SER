@@ -15,6 +15,6 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 handler.help = ['gitclone <url>']
 handler.tags = ['dl']
 handler.command = ['gitclone'] 
-handler.diamond = true
+handler.diamond = false
 
 export default handler
