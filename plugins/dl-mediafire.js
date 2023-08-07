@@ -32,7 +32,7 @@ ${isLimit ? `\n▢ The File Exceeds The Download Limit *+${limit} MB*\nUpgrade T
 handler.help = ['mediafire <url>']
 handler.tags = ['dl', 'prem']
 handler.command = ['mediafire', 'mfire'] 
-handler.diamond = true
+handler.diamond = false
 handler.premium = false
 
 export default handler
