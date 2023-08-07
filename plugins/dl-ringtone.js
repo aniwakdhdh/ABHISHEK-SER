@@ -1,5 +1,5 @@
-import axios from 'axios'
-import fetch from 'node-fetch';
+import fetch from 'node-fetch'
+import axios from 'axios';
 const handler = async (m, {conn, groupMetadata, usedPrefix, text, args, command}) => {
   if (!text) throw `*Enter A Ringtone Name 📌Example: ${usedPrefix + command} Samsung*`;
   const anu = await ringtone(text);
