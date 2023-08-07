@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
 import cheerio from 'cheerio';
 const handler = async (m, {conn, args, command, usedPrefix}) => {
-  if (!db.data.chats[m.chat].nsfw && m.isGroup) throw '⚠️This Group Doesnt Supprt Nsfw Enable It By * ${usedPrefix}on nsfw*';
+  if (!db.data.chats[m.chat].nsfw && m.isGroup) throw '⚠️This Group Doesnt Supprt Nsfw Enable It By ${usedPrefix}*on nsfw*';
   if (!args[0]) throw `⚠️Give A Valid Url *📌Example: ${usedPrefix + command} https://www.xnxx.com/video-14lcwbe8/rubia_novia_follada_en_cuarto_de_bano*`;
   try {
     await conn.reply(m.chat, '*✅The Video Is Processed Wait Sometime..*\n\n﹣ *⌛The Downloading Time Depends On The Duration Of The Video*', m);
