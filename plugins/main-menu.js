@@ -237,6 +237,7 @@ ${readMore}
 │ _${usedPrefix}on nsfw_
 │ _${usedPrefix}off nsfw_
 │ _${usedPrefix}hentais *<text>*_
+│ _${usedPrefix}xnxxdl <link>_
 ╰────────────⦁
 
 ╭───❮  *🎯𝙰𝙱𝙷𝙸𝚂𝙷𝙴𝙺-𝚂𝙴𝚁* ❯
