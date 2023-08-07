@@ -12,7 +12,7 @@ const handler = async (m, {conn, args, groupMetadata, participants, usedPrefix, 
       conn.reply(m.chat, `*🎯List Of Pepoles With ContryCode +${lol} In This Group:*\n\n` + numeros.join`\n`, m, {mentions: ps});
       break;
     case 'kicknum':
-      if (!bot.restrict) return m.reply('*⚠️The Owner Of The Bot Has Not Enabled The Restrict To Enable Type *${usedPrefix}on restrict* Contact Him To Enable*');
+      if (!bot.restrict) return m.reply('*⚠️The Owner Of The Bot Has Not Enabled The Restrict To Enable Type ${usedPrefix}*on restrict* Contact Him To Enable*');
       if (!isBotAdmin) return m.reply('*❌I Am Not An Admin Make Is Admin To Use This!*');
       conn.reply(m.chat, `*✅Kicking Numbers With The ContryCode +${lol}, In Each 10 Second 1 User Will Be Kicked Out From This Group*`, m);
       const ownerGroup = m.chat.split`-`[0] + '@s.whatsapp.net';
