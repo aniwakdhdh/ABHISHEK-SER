@@ -2,7 +2,7 @@ import cheerio from 'cheerio';
 import axios from 'axios';
 const handler = async (m, {conn, text, __dirname, usedPrefix, command}) => {
   if (!global.db.data.chats[m.chat].nsfw && m.isGroup) throw '⚠️This Group Doesnt Supprt Nsfw Enable It By *.on nsfw*';
-  if (!text) throw '⚠️Enter The Type Name 📌Example: ${usedPrefix}hentais hot';
+  if (!text) throw '⚠️Enter The Type Name *📌Example: .hentais hot*';
   const searchResults = await searchHentai(text);
   let teks = searchResults.result.map((v, i) => `
 ${i+1}. *_${v.title}_*
