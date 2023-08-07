@@ -9,6 +9,7 @@ let lkr = `╭───❮ *𝙱𝙾𝚃 𝙼𝙴𝙽𝚄* ❯
 │ _${usedPrefix}uptime_
 │ _${usedPrefix}alive_
 │ _${usedPrefix}owner_
+│ _${usedPrefix}report_
 │ _${usedPrefix}bot_
 │ _${usedPrefix}script_
 │ _${usedPrefix}runtime_
@@ -29,7 +30,6 @@ let lkr = `╭───❮ *𝙱𝙾𝚃 𝙼𝙴𝙽𝚄* ❯
 │ _${usedPrefix}bc_
 │ _${usedPrefix}bcgc_
 │ _${usedPrefix}join_
-│ _${usedPrefix}report_
 │ _${usedPrefix}update_ 
 │ _${usedPrefix}restart_
 │ _${usedPrefix}setppbot_
