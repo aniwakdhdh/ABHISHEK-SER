@@ -29,11 +29,13 @@ let lkr = `╭───❮ *𝙱𝙾𝚃 𝙼𝙴𝙽𝚄* ❯
 │ _${usedPrefix}bc_
 │ _${usedPrefix}bcgc_
 │ _${usedPrefix}join_
+│ _${usedPrefix}report_
 │ _${usedPrefix}update_ 
 │ _${usedPrefix}restart_
 │ _${usedPrefix}setppbot_
 │ _${usedPrefix}setprefix_
 │ _${usedPrefix}resetprefix_
+│ _${usedPrefix}resetuser_
 │ _${usedPrefix}getfile_
 │ _${usedPrefix}getplugin_
 ╰─────────────⦁
@@ -58,6 +60,8 @@ ${readMore}
 │ _${usedPrefix}warn *<@tag>*_
 │ _${usedPrefix}unwarn *<@tag>*_
 │ _${usedPrefix}listwarn_
+│ _${usedPrefix}listnum_
+│ _${usedPrefix}kicknum_
 │ _${usedPrefix}group *<open/close>*_
 │ _${usedPrefix}enable_
 │ _${usedPrefix}tagall_
