@@ -33,15 +33,13 @@ let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) =
         m.chat,
         fs.readFileSync(fileName),
         `${info.videoDetails.videoId}.mp4`,
-        `╭──── 〔 Y O U T U B E 〕 ─⬣
-	  
+        ` ╭──── 〔 Y O U T U B E 〕 ─⬣
 	  ⬡ Title: ${info.videoDetails.title}
 	  ⬡ Duration: ${info.videoDetails.lengthSeconds} seconds
 	  ⬡ Views: ${info.videoDetails.viewCount}
 	  ⬡ Upload: ${info.videoDetails.publishDate}
 	  ⬡ Link: ${args[0]}
-	  
-	  ╰────────⬣`,
+	  ╰─────────────────⬣`,
         m,
         false,
         { asDocument: chat.useDocument }
