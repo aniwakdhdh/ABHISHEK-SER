@@ -138,6 +138,7 @@ ${readMore}
 │ _${usedPrefix}messi_
 │ _${usedPrefix}cat_
 │ _${usedPrefix}dog_
+│ _${usedPrefix}couplepp_
 ╰─────────────⦁
 
 ╭───❮ *𝙰𝚄𝙳𝙸𝙾 𝙼𝙴𝙽𝚄* ❯
@@ -157,7 +158,6 @@ ${readMore}
 │ _${usedPrefix}waifu_
 │ _${usedPrefix}neko_
 │ _${usedPrefix}loli_
-│ _${usedPrefix}couplepp_
 │ _${usedPrefix}naruto_
 │ _${usedPrefix}itachi_
 │ _${usedPrefix}akira_
