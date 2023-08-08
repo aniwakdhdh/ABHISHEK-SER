@@ -3,9 +3,7 @@ const handler = async (m, {conn, text}) => {
   try {
     const res = await fetch('https://api.thecatapi.com/v1/images/search');
     const img = await res.json();
-    const caption = `
-_©ABHISHEK-SER_
-`.trim();
+    const caption = `_${command}_`.trim();
     conn.sendFile(m.chat, img[0].url, 'cat.jpg', caption, m);
   } catch (e) {
     console.log(e);
