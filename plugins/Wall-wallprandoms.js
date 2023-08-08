@@ -6,7 +6,7 @@ const handler = async (m, {command, conn}) => {
   const name = await conn.getName[who];
   const fgif = m;
 
-  if (command == 'wpmontaña') {
+  if (command == 'wpmountain') {
     const anu = await wallpaper('mountain');
     const result = anu[Math.floor(Math.random() * anu.length)];
     const haha = result.image[0];
@@ -103,7 +103,7 @@ const handler = async (m, {command, conn}) => {
     conn.sendMessage(m.chat, {image: {url: haha}, caption: `_${command}_`.trim()}, {quoted: m});
   }
 
-  if (command == 'planeta') {
+  if (command == 'planet') {
     const anu = await wallpaper('planet');
     const result = anu[Math.floor(Math.random() * anu.length)];
     const haha = result.image[0];
@@ -142,7 +142,7 @@ if (command == 'ff') {
     conn.sendMessage(m.chat, {image: {url: res2}, caption: `_${command}_`.trim()}, {quoted: m});
   }
 };
-handler.command = ['wpmontaña', 'pubg', 'wpgaming', 'wpaesthetic', 'wprandom', 'coffee', 'pentol', 'caricatura', 'ciberespacio', 'technology', 'doraemon', 'hacker', 'planeta', 'randomprofile', 'wpaesthetic2', 'wpvehiculo', 'wallhp', 'ff'];
+handler.command = ['wpmountain', 'pubg', 'wpgaming', 'wpaesthetic', 'wprandom', 'coffee', 'pentol', 'cartoon', 'cyberspace', 'technology', 'doraemon', 'hacker', 'planet', 'randomprofile', 'wpaesthetic2', 'wpvehiculo', 'wallhp', 'ff'];
 export default handler;
 
 async function wallpaper(title, page = '1') {
