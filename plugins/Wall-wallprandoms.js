@@ -135,14 +135,14 @@ const handler = async (m, {command, conn}) => {
     conn.sendMessage(m.chat, {image: {url: haha.data}, caption: `_${command}_`.trim()}, {quoted: m});
   }
 
-if (command == 'ff') {
+if (command == 'freefire') {
     const res = (await axios.get(`https://raw.githubusercontent.com/AbhishekSuresh2/ABHISHEK-SER/main/src/Abhi-Json/random-ff`)).data;
     const res2 = await res[Math.floor(res.length * Math.random())];
     await conn.reply(m.chat, global.wait, m);
     conn.sendMessage(m.chat, {image: {url: res2}, caption: `_${command}_`.trim()}, {quoted: m});
   }
 };
-handler.command = ['wpmountain', 'pubg', 'wpgaming', 'wpaesthetic', 'wprandom', 'coffee', 'pentol', 'cartoon', 'cyberspace', 'technology', 'doraemon', 'hacker', 'planet', 'randomprofile', 'wpaesthetic2', 'wpvehiculo', 'wallhp', 'ff'];
+handler.command = ['wpmountain', 'pubg', 'wpgaming', 'wpaesthetic', 'wprandom', 'coffee', 'pentol', 'cartoon', 'cyberspace', 'technology', 'doraemon', 'hacker', 'planet', 'randomprofile', 'wpaesthetic2', 'wpvehiculo', 'wallhp', 'freefire'];
 export default handler;
 
 async function wallpaper(title, page = '1') {
