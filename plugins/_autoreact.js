@@ -1,0 +1,1 @@
+/* Function({pattern: 'auto-react ?(.*)', */
