@@ -12,7 +12,7 @@ handler.all = async function (m) {
    }
 
   if (/^hi|hai|hii$/i.test(m.text) ) {
-    let av = '../media/voice/test.mp3'
+    let av = '../media/voice/hi.mp3'
     this.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
    }
   
