@@ -135,10 +135,23 @@ ${readMore}
 
 ╭───❮ *𝚁𝙰𝙽𝙳𝙾𝙼 𝙼𝙴𝙽𝚄* ❯
 │ _${usedPrefix}cr7_
-│ _${usedPrefix}messi_
 │ _${usedPrefix}cat_
-│ _${usedPrefix}dog_
+│ _${usedPrefix}coffee_
+│ _${usedPrefix}cartoon_
+│ _${usedPrefix}cyberspace_
 │ _${usedPrefix}couplepp_
+│ _${usedPrefix}dog_
+│ _${usedPrefix}doraemon_
+│ _${usedPrefix}ff_
+│ _${usedPrefix}hacker_
+│ _${usedPrefix}messi_
+│ _${usedPrefix}pubg_
+│ _${usedPrefix}pentol_
+│ _${usedPrefix}planet_
+│ _${usedPrefix}tech_
+│ _${usedPrefix}wpmountain_
+│ _${usedPrefix}wpgaming_
+│ _${usedPrefix}wprandom_
 ╰─────────────⦁
 
 ╭───❮ *𝙰𝚄𝙳𝙸𝙾 𝙼𝙴𝙽𝚄* ❯
