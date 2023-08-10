@@ -3,11 +3,11 @@ let stikerwelgc = "./src/welgc.webp"
 let stikerbyegc = "./src/byegc.webp"
 if (command == 'welcomegc') {
 conn.sendFile(m.chat, stikerwelgc, 'sticker.webp', null, m, false, { 
-contextInfo: { externalAdReply: { title: '⫷᭄ʜᴀᴅᴇs-ʙᴏᴛ-ᴍᴅ﹏✍', body: '©ᴏғᴄ-ʏᴏᴠᴀɴɪ﹏✍', sourceUrl: `https://github.com/AbhishekSuresh2/ABHISHEK-SER`, thumbnail: 'https://replicate.delivery/pbxt/QbP6Fh3ZXwKON9SCB70ERGwwgeeSbztwKIOIzhUeXFkwnFHiA/out.png'}}})  
+contextInfo: { externalAdReply: { title: '⫷᭄ʜᴀᴅᴇs-ʙᴏᴛ-ᴍᴅ﹏✍', body: '©ᴏғᴄ-ʏᴏᴠᴀɴɪ﹏✍', sourceUrl: `https://github.com/OFC-YOVANI/HADES-BOT-MD`, thumbnail: imagen}}})  
 }
 if (command == 'byegc') {
 conn.sendFile(m.chat, stikerbyegc, 'sticker.webp', null, m, false, { 
-contextInfo: { externalAdReply: { title: '⫷᭄ʜᴀᴅᴇs-ʙᴏᴛ-ᴍᴅ✍', body: '©ᴏғᴄ-ʏᴏᴠᴀɴɪ﹏✍', sourceUrl: `https://github.com/AbhishekSuresh2/ABHISHEK-SER`, thumbnail: 'https://replicate.delivery/pbxt/QbP6Fh3ZXwKON9SCB70ERGwwgeeSbztwKIOIzhUeXFkwnFHiA/out.png'}}})
+contextInfo: { externalAdReply: { title: '⫷᭄ʜᴀᴅᴇs-ʙᴏᴛ-ᴍᴅ✍', body: '©ᴏғᴄ-ʏᴏᴠᴀɴɪ﹏✍', sourceUrl: `https://github.com/OFC-YOVANI/HADES-BOT-MD`, thumbnail: imagen}}})
 }}
 handler.command = ['welcomegc', 'byegc']
 export default handler
