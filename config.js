@@ -58,6 +58,9 @@ global.fgyt = 'https://youtube.com/@comedymelodych8468'
 global.fgpyp = 'https://youtube.com/@comedymelodych8468'
 global.fglog = 'https://replicate.delivery/pbxt/QbP6Fh3ZXwKON9SCB70ERGwwgeeSbztwKIOIzhUeXFkwnFHiA/out.png' 
 
+//imagen
+global.imagen1 = fs.readFileSync('./src/Abhi.jpg')
+
 //Dont Edit Danger Zone⚠️
 global.wait = '*⌛ _Please Wait..._*'
 global.rwait = '⌛'
@@ -67,7 +70,6 @@ global.error = '❌'
 global.mlc = '📃'
 global.sdc = '🎶'
 global.xmoji = '🔥' 
-
 global.multiplier = 69 
 global.maxwarn = '3' // máxima advertencias
 
