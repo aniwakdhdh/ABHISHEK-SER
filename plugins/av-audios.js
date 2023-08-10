@@ -1,4 +1,3 @@
-let test = "./src/welgc.webp"
 let handler = m => m
 handler.all = async function (m) {
 
