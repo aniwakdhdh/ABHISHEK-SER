@@ -26,7 +26,7 @@
  ```SH
  > npm start
  ```
- Running the above command will start the bot. To authenticate scan the QR which shows up in the terminal using the WA-Web Scanner on your WhatsApp . Good Luck!
+ Running the above command will start the bot. To authenticate scan the QR which shows up in the terminal using the WA-Web Scanner on your WhatsApp . Good Luck!🎯
 
 
  [Set it up on Heroku](https://github.com/Guru322/GURU-BOT/blob/master/Heroku-Hosting-Guide.md)
