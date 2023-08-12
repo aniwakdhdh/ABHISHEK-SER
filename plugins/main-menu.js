@@ -230,6 +230,7 @@ ${readMore}
 │ _${usedPrefix}whatmusic_
 │ _${usedPrefix}tempmail_
 │ _${usedPrefix}checkmail_
+│ _${usedPrefix}pokedex_
 │ _${usedPrefix}calc_
 │ _${usedPrefix}google_
 │ _${usedPrefix}lyrics_
