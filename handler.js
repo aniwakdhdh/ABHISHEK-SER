@@ -76,7 +76,7 @@ export async function handler(chatUpdate) {
                 if (!('role' in user))
                     user.role = 'Beginner'
                 if (!('autolevelup' in user))
-                    user.autolevelup = false
+                    user.autolevelup = true
                 if (!isNumber(user.money))
                     user.money = 0
                 if (!isNumber(user.atm))
@@ -215,7 +215,7 @@ export async function handler(chatUpdate) {
                     warn: 0,
                     level: 0,                    
                     role: 'Beginner',
-                    autolevelup: false,
+                    autolevelup: true,
                     money: 0,
                     bank: 0,
                     atm: 0,
@@ -541,11 +541,11 @@ export async function handler(chatUpdate) {
                 else
                     m.exp += xp
                 if (!isPrems && plugin.diamond && global.db.data.users[m.sender].diamond < plugin.diamond * 1) {
-                     this.reply(m.chat, `✳️ your diamonds ran out \n use the following command to buy more diamonds \n*${usedPrefix}todiamond* <amount`, m)
+                     this.reply(m.chat, `🎯Your Diamonds Ran Out \n Use The Following Command To Buy More Diamonds \n*${usedPrefix}ToDiamond* <amount`, m)
                     continue // Limit habis
                 }
                 if (plugin.level > _user.level) {
-                    this.reply(m.chat, `✳️ required level ${plugin.level} to use this command. \nyour level ${_user.level}`, m)
+                    this.reply(m.chat, `🎯Required Level ${plugin.level} To Use This Command. \nYour Level ${_user.level}`, m)
                     continue // If the level has not been reached
                 }
                 let extra = {
@@ -601,7 +601,7 @@ export async function handler(chatUpdate) {
                         }
                     }
                     if (m.diamond)
-                        m.reply(`consumed *${+m.diamond}* 💎`)
+                        m.reply(`Consumed *${+m.diamond}* 💎`)
                 }
                 break
             }
@@ -674,41 +674,44 @@ export async function participantsUpdate({ id, participants, action }) {
     let text = ''
     switch (action) {
         case 'add':
-case 'remove':
-    if (chat.welcome) {
-        let groupMetadata = await this.groupMetadata(id) || (conn.chats[id] || {}).metadata;
-        for (let user of participants) {
-            let pp, ppgp;
-            try {
-                pp = await this.profilePictureUrl(user, 'image');
-                ppgp = await this.profilePictureUrl(id, 'image');
-            } catch (error) {
-                console.error(`Error retrieving profile picture: ${error}`);
-                pp = 'https://replicate.delivery/pbxt/QbP6Fh3ZXwKON9SCB70ERGwwgeeSbztwKIOIzhUeXFkwnFHiA/out.png'; // Assign default image URL
-                ppgp = 'https://replicate.delivery/pbxt/QbP6Fh3ZXwKON9SCB70ERGwwgeeSbztwKIOIzhUeXFkwnFHiA/out.png'; // Assign default image URL
-            } finally {
-                let text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user').replace('@group', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || 'Desconocido') :
-                    (chat.sBye || this.bye || conn.bye || 'HELLO, @user')).replace('@user', '@' + user.split('@')[0]);
+        case 'remove':
+            if (chat.welcome) {
+                let groupMetadata = await this.groupMetadata(id) || (conn.chats[id] || {}).metadata
+                for (let user of participants) {
+                    let pp = 'https://replicate.delivery/pbxt/QbP6Fh3ZXwKON9SCB70ERGwwgeeSbztwKIOIzhUeXFkwnFHiA/out.png'
+                    let ppgp = 'https://replicate.delivery/pbxt/QbP6Fh3ZXwKON9SCB70ERGwwgeeSbztwKIOIzhUeXFkwnFHiA/out.png'
+                    try {
+                        pp = await this.profilePictureUrl(user, 'image')
+                        ppgp = await this.profilePictureUrl(id, 'image')
+                        } finally {
+                        text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user').replace('@group', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || 'Desconocido') :
+                            (chat.sBye || this.bye || conn.bye || 'HELLO, @user')).replace('@user', '@' + user.split('@')[0])
+                         
+                            let wel = API('fgmods', '/api/welcome', {
+                                username: await this.getName(user),
+                                groupname: await this.getName(id),
+                                groupicon: ppgp,
+                                membercount: groupMetadata.participants.length,
+                                profile: pp,
+                                background: 'https://i.imgur.com/bbWbASn.jpg'
+                            }, 'apikey')
 
-                let nthMember = groupMetadata.participants.length;
-                let secondText = action === 'add' ? `Welcome, ${await this.getName(user)}, our ${nthMember}th member` : `Goodbye, our ${nthMember}th group member`;
-
-                try {
-                    let apiKey = "gandu";  // Replace with your actual API Key
-                    let wel = await fetch(`https://oni-chan.my.id/api/canvas/welcome_v1?ppurl=${encodeURIComponent(pp)}&bgurl=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoyd4vOi-tJEhN-voL-yVTYsko8dcBvloa2A&usqp=CAU&username=${encodeURIComponent(await this.getName(user))}&totalmember=${encodeURIComponent(nthMember.toString())}&secondtext=${encodeURIComponent(secondText)}&apikey=${apiKey}`);
-                    let lea = await fetch(`https://oni-chan.my.id/api/canvas/leave_v1?ppurl=${encodeURIComponent(pp)}&bgurl=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoyd4vOi-tJEhN-voL-yVTYsko8dcBvloa2A&usqp=CAU&username=${encodeURIComponent(await this.getName(user))}&totalmember=${encodeURIComponent(nthMember.toString())}&secondtext=${encodeURIComponent(secondText)}&apikey=${apiKey}`);
-
-                    let welBuffer = await wel.buffer();
-                    let leaBuffer = await lea.buffer();
-
-                    this.sendFile(id, action === 'add' ? welBuffer : leaBuffer, 'welcome.png', text, null, false, { mentions: [user] });
-                } catch (error) {
-                    console.error(`Error generating welcome/leave image: ${error}`);
+                            let lea = API('fgmods', '/api/goodbye', {
+                                username: await this.getName(user),
+                                groupname: await this.getName(id),
+                                groupicon: ppgp,
+                                membercount: groupMetadata.participants.length,
+                                profile: pp,
+                                background: 'https://i.imgur.com/klTSO3d.jpg'
+                            }, 'apikey')
+                             this.sendFile(id, action === 'add' ? wel : lea, 'pp.jpg', text, null, false, { mentions: [user] })
+                            /*this.sendButton(id, text, igfg, action === 'add' ? wel : lea, [
+                             [(action == 'add' ? '⦙☰ MENU' : 'BYE'), (action == 'add' ? '/help' : '')], 
+                             [(action == 'add' ? '⏍ INFO' : 'ッ'), (action == 'add' ? '/info' : ' ')] ], null, {mentions: [user]})
+                          */
+                    }
                 }
             }
-        }
-    }
-
             break
         case 'promote':
         case 'promover':
@@ -760,10 +763,11 @@ export async function deleteUpdate(message) {
         if (chat.delete)
             return 
             await this.reply(msg.chat, `
-≡ deleted a message 
-┌─⊷  𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀 
-▢ *Number :* @${participant.split`@`[0]} 
-└─────────────
+╭────────────❮	    
+│ Deleted A Message 
+│ *ANTI DELETE*
+│ *Number :* @${participant.split`@`[0]} 
+╰────────────⦁
 TO DEACTIVE , PRESS 
 */off antidelete*
 *.enable delete*
@@ -778,16 +782,16 @@ TO DEACTIVE , PRESS
 
 global.dfail = (type, m, conn) => {
     let msg = {
-        rowner: '*ᴏɴʟʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ* • This command can only be used by the *Creator of the bot*',
-        owner: '*ᴏɴʟʏ ᴏᴡɴᴇʀ* • This command can only be used by the *Bot Owner',
-        mods: '*ᴏɴʟʏ ᴍᴏᴅᴇʀᴀᴛᴏʀ* •This function is only for *For Bot moderators*',
-        premium: '*ᴏɴʟʏ ᴘʀᴇᴍɪᴜᴍ* • This command is for *Premium members only',
-        group: '*ɢʀᴏᴜᴘ ᴄʜᴀᴛ* • This command can only be used in groups',
-        private: '*ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ* • This command can only be used in the *private chat of the Bot*',
-        admin: '*ᴏɴʟʏ ᴀᴅᴍɪɴ* • This command is only for *Group Admins*',
-        botAdmin: '*ᴏɴʟʏ ʙᴏᴛ ᴀᴅᴍɪɴ* • To use this command I must be *Admin!*',
-        unreg: '*ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ʀᴇɢɪsᴛᴇʀᴇᴅ ʏᴇᴛ* •  Sign in to use this feature Typing:\n\n*/reg name.age*\n\n📌Example : */reg GURU.20*', 
-        restrict: '*ʀᴇsᴛʀɪᴄᴛ* • This feature is *disabled*',
+        rowner: 'This Command Can Only Be Used By The *Creator Of The Bot*',
+        owner: 'This Command Can Only Be Used By The *Bot Owner*',
+        mods: 'This Function Is Only *For Bot Moderators*',
+        premium: 'This Command Is Only For *Premium Members*',
+        group: 'This Command Can Only Be Used In *Groups*',
+        private: 'This Command Only Be Used In *Private Chat Of The Bot*',
+        admin: 'This Command Is Only For *Group Admins*',
+        botAdmin: 'To Use This Command I Must Be *Admin!*',
+        unreg: 'Sign In To Use This Feature Typing:\n\n*/reg name.age*\n\n📌Example : */reg ABHI.19*', 
+        restrict: 'This Feature Is *Disabled*',
     }[type]
     if (msg) return m.reply(msg)
 }
