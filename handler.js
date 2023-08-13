@@ -541,11 +541,11 @@ export async function handler(chatUpdate) {
                 else
                     m.exp += xp
                 if (!isPrems && plugin.diamond && global.db.data.users[m.sender].diamond < plugin.diamond * 1) {
-                     this.reply(m.chat, `✳️ your diamonds ran out \n use the following command to buy more diamonds \n*${usedPrefix}todiamond* <amount`, m)
+                     this.reply(m.chat, `🎯Your Diamonds Ran Out \n Use The Following Command To Buy More Diamonds \n*${usedPrefix}ToDiamond* <amount`, m)
                     continue // Limit habis
                 }
                 if (plugin.level > _user.level) {
-                    this.reply(m.chat, `✳️ required level ${plugin.level} to use this command. \nyour level ${_user.level}`, m)
+                    this.reply(m.chat, `🎯Required Level ${plugin.level} To Use This Command. \nYour Level ${_user.level}`, m)
                     continue // If the level has not been reached
                 }
                 let extra = {
@@ -601,7 +601,7 @@ export async function handler(chatUpdate) {
                         }
                     }
                     if (m.diamond)
-                        m.reply(`consumed *${+m.diamond}* 💎`)
+                        m.reply(`Consumed *${+m.diamond}* 💎`)
                 }
                 break
             }
@@ -678,8 +678,8 @@ export async function participantsUpdate({ id, participants, action }) {
             if (chat.welcome) {
                 let groupMetadata = await this.groupMetadata(id) || (conn.chats[id] || {}).metadata
                 for (let user of participants) {
-                    let pp = 'https://i.imgur.com/8B4jwGq.jpeg'
-                    let ppgp = 'https://i.imgur.com/8B4jwGq.jpeg'
+                    let pp = 'https://replicate.delivery/pbxt/QbP6Fh3ZXwKON9SCB70ERGwwgeeSbztwKIOIzhUeXFkwnFHiA/out.png'
+                    let ppgp = 'https://replicate.delivery/pbxt/QbP6Fh3ZXwKON9SCB70ERGwwgeeSbztwKIOIzhUeXFkwnFHiA/out.png'
                     try {
                         pp = await this.profilePictureUrl(user, 'image')
                         ppgp = await this.profilePictureUrl(id, 'image')
@@ -763,10 +763,11 @@ export async function deleteUpdate(message) {
         if (chat.delete)
             return 
             await this.reply(msg.chat, `
-≡ deleted a message 
-┌─⊷  𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀 
-▢ *Number :* @${participant.split`@`[0]} 
-└─────────────
+╭────────────❮	    
+│ Deleted A Message 
+│ *ANTI DELETE*
+│ *Number :* @${participant.split`@`[0]} 
+╰────────────⦁
 TO DEACTIVE , PRESS 
 */off antidelete*
 *.enable delete*
@@ -781,16 +782,16 @@ TO DEACTIVE , PRESS
 
 global.dfail = (type, m, conn) => {
     let msg = {
-        rowner: '*ᴏɴʟʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ* • This command can only be used by the *Creator of the bot*',
-        owner: '*ᴏɴʟʏ ᴏᴡɴᴇʀ* • This command can only be used by the *Bot Owner',
-        mods: '*ᴏɴʟʏ ᴍᴏᴅᴇʀᴀᴛᴏʀ* •This function is only for *For Bot moderators*',
-        premium: '*ᴏɴʟʏ ᴘʀᴇᴍɪᴜᴍ* • This command is for *Premium members only',
-        group: '*ɢʀᴏᴜᴘ ᴄʜᴀᴛ* • This command can only be used in groups',
-        private: '*ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ* • This command can only be used in the *private chat of the Bot*',
-        admin: '*ᴏɴʟʏ ᴀᴅᴍɪɴ* • This command is only for *Group Admins*',
-        botAdmin: '*ᴏɴʟʏ ʙᴏᴛ ᴀᴅᴍɪɴ* • To use this command I must be *Admin!*',
-        unreg: '*ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ʀᴇɢɪsᴛᴇʀᴇᴅ ʏᴇᴛ* •  Sign in to use this feature Typing:\n\n*/reg name.age*\n\n📌Example : */reg GURU.20*', 
-        restrict: '*ʀᴇsᴛʀɪᴄᴛ* • This feature is *disabled*',
+        rowner: 'This Command Can Only Be Used By The *Creator Of The Bot*',
+        owner: 'This Command Can Only Be Used By The *Bot Owner*',
+        mods: 'This Function Is Only *For Bot Moderators*',
+        premium: 'This Command Is Only For *Premium Members*',
+        group: 'This Command Can Only Be Used In *Groups*',
+        private: 'This Command Only Be Used In *Private Chat Of The Bot*',
+        admin: 'This Command Is Only For *Group Admins*',
+        botAdmin: 'To Use This Command I Must Be *Admin!*',
+        unreg: 'Sign In To Use This Feature Typing:\n\n*/reg name.age*\n\n📌Example : */reg ABHI.19*', 
+        restrict: 'This Feature Is *Disabled*',
     }[type]
     if (msg) return m.reply(msg)
 }
