@@ -69,11 +69,6 @@ ABHISHEK-SER Multi Device Whatsapp Bot.
 <a href="https://app.koyeb.com"><img title="ABHISHEK-SER Deploy Koyeb" src="https://img.shields.io/badge/DEPLOY KOYEB-h?color=black&style=for-the-badge&logo=koyeb"></a>
 
 ---
-### Deploy Cyclic 
-
-<a href='https://cyclic.sh' target="_blank"><img alt='ABHISHEK-SER Deploy Cyclic' src='https://img.shields.io/badge/-DEPLOY CYCLIC-black?style=for-the-badge&logo=windows'/></a>
-
----
 ### Deploy On Render
 
 <a href='https://dashboard.render.com' target="_blank"><img alt='ABHISHEK-SER Deploy Render' src='https://img.shields.io/badge/-DEPLOY RENDER-black?style=for-the-badge&logo=render'/></a>
