@@ -81,7 +81,7 @@ ABHISHEK-SER Multi Device Whatsapp Bot.
 ---
 ### Deploy On Uffizzi
 
-<a href='https://www.uffizzi.com/' target="_blank"><img alt='ABHISHEK-SER Deploy Uffizzi' src='https://img.shields.io/badge/-DEPLOY UFFIZZI-black?style=for-the-badge&logo=x'/></a>
+<a href='https://www.uffizzi.com/' target="_blank"><img alt='ABHISHEK-SER Deploy Uffizzi' src='https://img.shields.io/badge/-DEPLOY UFFIZZI-black?style=for-the-badge&logo=D'/></a>
 
 ---
 ### Deploy Replit
