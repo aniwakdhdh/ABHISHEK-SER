@@ -59,11 +59,6 @@ ABHISHEK-SER Multi Device Whatsapp Bot.
 <a href="https://studio.mogenius.com/studio/cloud-space/cloud-space-overview"><img title="ABHISHEK-SER Deploy Mogenius" src="https://img.shields.io/badge/DEPLOY MOGENIUS-h?color=black&style=for-the-badge&logo=genius"></a>
 
 ---
-### Deploy Coolify
-
-<a href="https://coolify.io/"><img title="ABHISHEK-SER Deploy Coolify" src="https://img.shields.io/badge/DEPLOY COOLIFY-h?color=black&style=for-the-badge&logo=coolify"></a>
-
----
 ### Deploy Koyeb
 
 <a href="https://app.koyeb.com"><img title="ABHISHEK-SER Deploy Koyeb" src="https://img.shields.io/badge/DEPLOY KOYEB-h?color=black&style=for-the-badge&logo=koyeb"></a>
