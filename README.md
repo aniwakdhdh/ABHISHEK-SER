@@ -52,6 +52,10 @@ ABHISHEK-SER Multi Device Whatsapp Bot.
 
 <a href="https://railway.app/new"><img title="ABHISHEK-SER Deploy Railway" src="https://img.shields.io/badge/DEPLOY RAILWAY-h?color=black&style=for-the-badge&logo=Railway"></a>
 
+---
+### Railway Tutorial
+
+<a href="https://youtu.be/2Eqmo8lzLPU?si=zSdAvrAm3ji22I6t"><img title="Rayilway Tutorial" src="https://img.shields.io/badge/RAYILWAY TUTORIAL-h?color=black&style=for-the-badge&logo=Railway"></a>
 
 ---
 ### Deploy Mogenius
