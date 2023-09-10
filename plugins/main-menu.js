@@ -21,6 +21,8 @@ let lkr = `╭───❮ *𝙱𝙾𝚃 𝙼𝙴𝙽𝚄* ❯
 ╰─────────────⦁
 
 ╭───❮ *𝙾𝚆𝙽𝙴𝚁 𝙼𝙴𝙽𝚄* ❯
+│ _${usedPrefix}*on/off* public_
+│ _${usedPrefix}enable_
 │ _${usedPrefix}autoadmin_
 │ _${usedPrefix}left_
 │ _${usedPrefix}banchat_
@@ -43,29 +45,28 @@ let lkr = `╭───❮ *𝙱𝙾𝚃 𝙼𝙴𝙽𝚄* ❯
 ╰─────────────⦁
 ${readMore} 
 ╭───❮ *𝙶𝚁𝙾𝚄𝙿 𝙼𝙴𝙽𝚄* ❯
-│ _${usedPrefix}kick *<@tag>*_
-│ _${usedPrefix}promote *<@tag>*_
-│ _${usedPrefix}demote *<@tag>*_
+│ _${usedPrefix}kick *@tag*_
+│ _${usedPrefix}promote *@tag*_
+│ _${usedPrefix}demote *@tag*_
 │ _${usedPrefix}infogroup_
-│ _${usedPrefix}getbio *<@tag>*_
+│ _${usedPrefix}getbio *@tag*_
 │ _${usedPrefix}resetlink_
 │ _${usedPrefix}link_
 │ _${usedPrefix}on/off antilink_
 │ _${usedPrefix}on/off antidelete_
 │ _${usedPrefix}invite_
-│ _${usedPrefix}setpp *<image>*_
-│ _${usedPrefix}setname *<text>*_
-│ _${usedPrefix}setdesc *<text>*_
-│ _${usedPrefix}setwelcome *<text>*_
-│ _${usedPrefix}setbye *<text>*_
-│ _${usedPrefix}hidetag *<text/image/audio/vid>*_
-│ _${usedPrefix}warn *<@tag>*_
-│ _${usedPrefix}unwarn *<@tag>*_
+│ _${usedPrefix}setpp *image*_
+│ _${usedPrefix}setname *text*_
+│ _${usedPrefix}setdesc *text*_
+│ _${usedPrefix}setwelcome *text*_
+│ _${usedPrefix}setbye *text*_
+│ _${usedPrefix}hidetag *text/image/audio/vid*_
+│ _${usedPrefix}warn *@tag*_
+│ _${usedPrefix}unwarn *@tag*_
 │ _${usedPrefix}listwarn_
 │ _${usedPrefix}listnum_
 │ _${usedPrefix}kicknum_
-│ _${usedPrefix}group *<open/close>*_
-│ _${usedPrefix}enable_
+│ _${usedPrefix}group *open/close*_
 │ _${usedPrefix}tagall_
 ╰─────────────⦁
 
@@ -73,17 +74,17 @@ ${readMore}
 │ _${usedPrefix}play_
 │ _${usedPrefix}play2_
 │ _${usedPrefix}yts_
-│ _${usedPrefix}insta <link>_
+│ _${usedPrefix}insta link_
 │ _${usedPrefix}img_
 │ _${usedPrefix}pinterest_
-│ _${usedPrefix}mediafire <link>_
-│ _${usedPrefix}gdrive <link>_
-│ _${usedPrefix}gitclone <link>_
-│ _${usedPrefix}twitter <link>_
-│ _${usedPrefix}tiktok <link>_
+│ _${usedPrefix}mediafire link_
+│ _${usedPrefix}gdrive link_
+│ _${usedPrefix}gitclone link_
+│ _${usedPrefix}twitter link_
+│ _${usedPrefix}tiktok link_
 │ _${usedPrefix}tiktokstalk_
 │ _${usedPrefix}spotify_
-│ _${usedPrefix}fb <link>_
+│ _${usedPrefix}fb link_
 ╰─────────────⦁
 
 ╭───❮ *𝙴𝙲𝙾𝙽𝙾𝙼𝚈 𝙼𝙴𝙽𝚄* ❯
@@ -252,8 +253,8 @@ ${readMore}
 ╭───❮ *𝙽𝚂𝙵𝚆 𝙼𝙴𝙽𝚄* ❯
 │ _${usedPrefix}on nsfw_
 │ _${usedPrefix}off nsfw_
-│ _${usedPrefix}hentais *<text>*_
-│ _${usedPrefix}xnxxdl <link>_
+│ _${usedPrefix}hentais *text*_
+│ _${usedPrefix}xnxxdl *link*_
 ╰────────────⦁
 
 ╭───❮  *🎯𝙰𝙱𝙷𝙸𝚂𝙷𝙴𝙺-𝚂𝙴𝚁* ❯
