@@ -30,6 +30,8 @@ let lkr = `╭───❮ *𝙱𝙾𝚃 𝙼𝙴𝙽𝚄* ❯
 │ _${usedPrefix}ban_
 │ _${usedPrefix}unban_
 │ _${usedPrefix}banlist_
+│ _${usedPrefix}block_
+│ _${usedPrefix}unblock_
 │ _${usedPrefix}blocklist_
 │ _${usedPrefix}bc_
 │ _${usedPrefix}bcgc_
