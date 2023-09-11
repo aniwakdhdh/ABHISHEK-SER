@@ -52,8 +52,8 @@ ${readMore}
 │ _${usedPrefix}getbio *@tag*_
 │ _${usedPrefix}resetlink_
 │ _${usedPrefix}link_
-│ _${usedPrefix}on/off antilink_
-│ _${usedPrefix}on/off antidelete_
+│ _${usedPrefix}*on/off* antilink_
+│ _${usedPrefix}*on/off* antidelete_
 │ _${usedPrefix}invite_
 │ _${usedPrefix}setpp *image*_
 │ _${usedPrefix}setname *text*_
@@ -74,17 +74,17 @@ ${readMore}
 │ _${usedPrefix}play_
 │ _${usedPrefix}play2_
 │ _${usedPrefix}yts_
-│ _${usedPrefix}insta link_
+│ _${usedPrefix}insta *link*_
 │ _${usedPrefix}img_
 │ _${usedPrefix}pinterest_
-│ _${usedPrefix}mediafire link_
-│ _${usedPrefix}gdrive link_
-│ _${usedPrefix}gitclone link_
-│ _${usedPrefix}twitter link_
-│ _${usedPrefix}tiktok link_
+│ _${usedPrefix}mediafire *link*_
+│ _${usedPrefix}gdrive *link*_
+│ _${usedPrefix}gitclone *link*_
+│ _${usedPrefix}twitter *link*_
+│ _${usedPrefix}tiktok *link*_
 │ _${usedPrefix}tiktokstalk_
 │ _${usedPrefix}spotify_
-│ _${usedPrefix}fb link_
+│ _${usedPrefix}fb *link*_
 ╰─────────────⦁
 
 ╭───❮ *𝙴𝙲𝙾𝙽𝙾𝙼𝚈 𝙼𝙴𝙽𝚄* ❯
