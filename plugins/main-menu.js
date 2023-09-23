@@ -22,7 +22,6 @@ let lkr = `╭───❮ *𝙱𝙾𝚃 𝙼𝙴𝙽𝚄* ❯
 
 ╭───❮ *𝙾𝚆𝙽𝙴𝚁 𝙼𝙴𝙽𝚄* ❯
 │ _${usedPrefix}*on/off* public_
-│ _${usedPrefix}permit *tag*_
 │ _${usedPrefix}enable_
 │ _${usedPrefix}autoadmin_
 │ _${usedPrefix}left_
