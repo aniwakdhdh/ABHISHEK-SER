@@ -5,7 +5,7 @@ let pp = 'https://i.ibb.co/jJGwL7b/f2803cd7f5f2.jpg'
 let more = String.fromCharCode(8206)
 let readMore = more.repeat(850) 
 let lkr = `╭───❮ *𝚄𝙿𝙳𝙰𝚃𝙴 𝙱𝙾𝚃* ❯
-│ _*ABHISHEK-SER BOT UPDATE🔧*_
+│ *ABHISHEK-SER BOT UPDATE🔧*
 │ 1. Open Your Fork
 │ 2. Click On Sync Fork
 │ 3. And Click On Update Branch
