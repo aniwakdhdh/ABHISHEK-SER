@@ -22,6 +22,7 @@ let lkr = `╭───❮ *𝙱𝙾𝚃 𝙼𝙴𝙽𝚄* ❯
 
 ╭───❮ *𝙾𝚆𝙽𝙴𝚁 𝙼𝙴𝙽𝚄* ❯
 │ _${usedPrefix}*on/off* public_
+│ _${usedPrefix}update_
 │ _${usedPrefix}enable_
 │ _${usedPrefix}autoadmin_
 │ _${usedPrefix}left_
@@ -35,8 +36,7 @@ let lkr = `╭───❮ *𝙱𝙾𝚃 𝙼𝙴𝙽𝚄* ❯
 │ _${usedPrefix}blocklist_
 │ _${usedPrefix}bc_
 │ _${usedPrefix}bcgc_
-│ _${usedPrefix}join_
-│ _${usedPrefix}update_ 
+│ _${usedPrefix}join_ 
 │ _${usedPrefix}restart_
 │ _${usedPrefix}setppbot_
 │ _${usedPrefix}setprefix_
