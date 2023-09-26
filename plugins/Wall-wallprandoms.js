@@ -130,7 +130,7 @@ const handler = async (m, {command, conn}) => {
   }
 
   if (command == 'bts') {
-    const haha = await conn.getFile(`https://raw.githubusercontent.com/AbhishekSuresh2/ABHISHEK-SER/main/src/Abhi-Json/random-bts}`);
+    const haha = await conn.getFile(`https://raw.githubusercontent.com/AbhishekSuresh2/ABHISHEK-SER/main/src/Abhi-Json/random-bts`));
     await conn.reply(m.chat, global.wait, m);
     conn.sendMessage(m.chat, {image: {url: haha.data}, caption: `_${command}_`.trim()}, {quoted: m});
   }
