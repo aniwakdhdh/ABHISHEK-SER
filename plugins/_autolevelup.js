@@ -18,7 +18,6 @@ export async function before(m, { conn }) {
 │ *📍Level* *${before}* ‣  *${user.level}*
 │ *🐉Role*: *${user.role}*
 │ *Have A Good Day🎯*
-│
 │ _*Type /off autolevelup*_
 │    _*To Deactivate*_
 ╰────────────
