@@ -1,7 +1,7 @@
 let handler = async (m, { conn, usedPrefix, command}) => {
 let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 if (!(who in global.db.data.users)) throw `❌ The User Is Not Found In My Database`
-let pp = 'https://i.ibb.co/jJGwL7b/f2803cd7f5f2.jpg'
+let pp = 'https://i.ibb.co/4VY23Sk/06527979fdac.jpg'
 let more = String.fromCharCode(8206)
 let readMore = more.repeat(850) 
 let lkr = `╭───❮ *𝚄𝙿𝙳𝙰𝚃𝙴 𝙱𝙾𝚃* ❯
