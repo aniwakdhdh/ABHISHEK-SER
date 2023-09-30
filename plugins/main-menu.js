@@ -73,6 +73,28 @@ ${readMore}
 │ _${usedPrefix}tagall_
 ╰─────────────⦁
 
+╭───❮ *𝙵𝚄𝙽 𝙼𝙴𝙽𝚄* ❯
+│ _${usedPrefix}hearts_
+│ _${usedPrefix}question_
+│ _${usedPrefix}character_
+│ _${usedPrefix}truth_
+│ _${usedPrefix}dare_
+│ _${usedPrefix}flirt_
+│ _${usedPrefix}gay_
+│ _${usedPrefix}meme_
+│ _${usedPrefix}ship_
+│ _${usedPrefix}kill_
+│ _${usedPrefix}kiss_
+│ _${usedPrefix}pat_
+│ _${usedPrefix}slap_
+│ _${usedPrefix}waste_
+│ _${usedPrefix}simpcard_
+│ _${usedPrefix}hornycard_
+│ _${usedPrefix}ytcomment_
+│ _${usedPrefix}stupid_
+│ _${usedPrefix}lolicon_
+╰─────────────⦁
+
 ╭───❮ *𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙴𝙽𝚄* ❯
 │ _${usedPrefix}play_
 │ _${usedPrefix}play2_
@@ -108,27 +130,6 @@ ${readMore}
 │ _${usedPrefix}transfer_
 │ _${usedPrefix}todiamond_
 │ _${usedPrefix}tomoney_
-╰─────────────⦁
-
-╭───❮ *𝙵𝚄𝙽 𝙼𝙴𝙽𝚄* ❯
-│ _${usedPrefix}question_
-│ _${usedPrefix}character_
-│ _${usedPrefix}truth_
-│ _${usedPrefix}dare_
-│ _${usedPrefix}flirt_
-│ _${usedPrefix}gay_
-│ _${usedPrefix}meme_
-│ _${usedPrefix}ship_
-│ _${usedPrefix}kill_
-│ _${usedPrefix}kiss_
-│ _${usedPrefix}pat_
-│ _${usedPrefix}slap_
-│ _${usedPrefix}waste_
-│ _${usedPrefix}simpcard_
-│ _${usedPrefix}hornycard_
-│ _${usedPrefix}ytcomment_
-│ _${usedPrefix}stupid_
-│ _${usedPrefix}lolicon_
 ╰─────────────⦁
 
 ╭───❮ *𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙴𝚁 𝙼𝙴𝙽𝚄* ❯
