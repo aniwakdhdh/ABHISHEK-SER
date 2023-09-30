@@ -7,6 +7,7 @@ let readMore = more.repeat(850)
 let lkr = `╭───❮ *𝙱𝙾𝚃 𝙼𝙴𝙽𝚄* ❯
 │ _${usedPrefix}ping_
 │ _${usedPrefix}uptime_
+│ _${usedPrefix}enable_
 │ _${usedPrefix}alive_
 │ _${usedPrefix}owner_
 │ _${usedPrefix}report_
@@ -22,8 +23,8 @@ let lkr = `╭───❮ *𝙱𝙾𝚃 𝙼𝙴𝙽𝚄* ❯
 
 ╭───❮ *𝙾𝚆𝙽𝙴𝚁 𝙼𝙴𝙽𝚄* ❯
 │ _${usedPrefix}*on/off* public_
+│ _${usedPrefix}*on/off* autoreact_
 │ _${usedPrefix}update_
-│ _${usedPrefix}enable_
 │ _${usedPrefix}autoadmin_
 │ _${usedPrefix}left_
 │ _${usedPrefix}banchat_
