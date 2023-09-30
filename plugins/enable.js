@@ -8,7 +8,7 @@ const sections = [
 	rows: [
 	{title: "🔮 | Welcome", rowId: `${usedPrefix + command} welcome`},
 	{title: "🌎 | Public", rowId: `${usedPrefix + command} public`},
-        {title: "🎵 | Bgmbot", rowId: `${usedPrefix + command} bgmbot`},
+        {title: "🔄 | AutoReact", rowId: `${usedPrefix + command} autoreact`},
 	{title: "🔞 | Nsfw", rowId: `${usedPrefix + command} nsfw`},
 	{title: "🧬 | OnlyEnglish", rowId: `${usedPrefix + command} onlyenglish`},
 	{title: "🔗 | Antilink", rowId: `${usedPrefix + command} antilink`},
@@ -153,15 +153,14 @@ const listMessage = {
       user.chatbot = isEnable
      break
     
-    case 'bgmbot':
-    case 'autobgm':
-      isAll = true
-      if (!isOwner) {
-        global.dfail('owner', m, conn)
-        throw false
-      }
-      bot.bgmbot = isEnable
-      break
+    case 'autoreact':
+  isAll = true
+  if (!isOwner) {
+    global.dfail('owner', m, conn);
+    throw false
+  }
+  bot.autoreact = isEnable;
+  break
 		  
     case 'restrict':
     case 'restringir':
@@ -200,30 +199,29 @@ const listMessage = {
       
     default:
      if (!/[01]/.test(command)) return m.reply(`
-≡ List of options
-
-┌─⊷ *ADMIN*
-▢ welcome
-▢ antilink
-▢ nsfw
-▢ onlyenglish
-▢ autosticker
-▢ detect
-▢ antidelete
-└───────────── 
-┌─⊷ *USERS*
-▢ autolevelup
-▢ chatbot 
-└─────────────
-┌─⊷ *OWNER*
-▢ public
-▢ bgmbot
-▢ onlydm
-▢ grouponly
-└─────────────
+≡ List Of Options
+╭───❮ *𝙱𝙾𝚃 𝙾𝚆𝙽𝙴𝚁* ❯
+│ public
+│ onlydm
+│ grouponly
+│ autoreact
+╰────────────⦁
+╭───❮ *𝙶𝚁𝙾𝚄𝙿 𝙰𝙳𝙼𝙸𝙽* ❯
+│ nsfw
+│ detect
+│ welcome
+│ antilink
+│ antidelete
+│ autosticker
+│ onlyenglish
+╰────────────⦁
+╭───❮ *𝙱𝙾𝚃 𝚄𝚂𝙴𝚁* ❯
+│ chatbot
+│ autolevelup
+╰────────────⦁
 *📌 Example :*
-*${usedPrefix}on* welcome
-*${usedPrefix}off* welcome
+*${usedPrefix}on* autoreact
+*${usedPrefix}off* autoreact
 `)
       throw false
   }
