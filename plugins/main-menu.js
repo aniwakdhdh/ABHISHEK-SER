@@ -75,6 +75,7 @@ ${readMore}
 
 ╭───❮ *𝙵𝚄𝙽 𝙼𝙴𝙽𝚄* ❯
 │ _${usedPrefix}hearts_
+│ _${usedPrefix}moon_
 │ _${usedPrefix}question_
 │ _${usedPrefix}character_
 │ _${usedPrefix}truth_
