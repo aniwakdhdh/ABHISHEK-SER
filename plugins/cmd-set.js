@@ -15,7 +15,7 @@ let handler = async (m, { text, usedPrefix, command }) => {
         at: + new Date,
         locked: false,
     }
-    m.reply(`✅ command saved`)
+    m.reply(`*Command Saved If Anyone Send The Sticker Bot Will Perform The Action✅*`)
 }
 
 
