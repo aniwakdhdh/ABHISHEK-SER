@@ -59,7 +59,7 @@ ${readMore}
 │ _${usedPrefix}*on/off* antilink_
 │ _${usedPrefix}*on/off* antidelete_
 │ _${usedPrefix}invite_
-│ _${usedPrefix}setpp *image*_
+│ _${usedPrefix}setppgc *image*_
 │ _${usedPrefix}setname *text*_
 │ _${usedPrefix}setdesc *text*_
 │ _${usedPrefix}setwelcome *text*_
