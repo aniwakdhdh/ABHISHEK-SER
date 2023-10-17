@@ -40,7 +40,7 @@ let lkr = `╭───❮ *𝙱𝙾𝚃 𝙼𝙴𝙽𝚄* ❯
 │ _${usedPrefix}bcgc_
 │ _${usedPrefix}join_ 
 │ _${usedPrefix}restart_
-│ _${usedPrefix}setppbot_
+│ _${usedPrefix}setpp_
 │ _${usedPrefix}setprefix_
 │ _${usedPrefix}resetprefix_
 │ _${usedPrefix}resetuser_
