@@ -98,8 +98,8 @@ ${readMore}
 ╰─────────────⦁
 
 ╭───❮ *𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙴𝙽𝚄* ❯
+│ _${usedPrefix}song_
 │ _${usedPrefix}play_
-│ _${usedPrefix}play2_
 │ _${usedPrefix}yts_
 │ _${usedPrefix}insta *link*_
 │ _${usedPrefix}img_
