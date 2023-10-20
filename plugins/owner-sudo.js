@@ -15,7 +15,7 @@ let handler = async (m, { conn, text }) => {
 }
 handler.help = ['sudo @user']
 handler.tags = ['owner']
-handler.command = /^(owner|sudo)$/i;
+handler.command = /^sudo/i;
 handler.owner = true
 
 export default handler;
