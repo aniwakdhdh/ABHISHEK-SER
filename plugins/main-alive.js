@@ -1,1 +1,52 @@
-function _0x5862(){const _0x1b2cd1=['300otbCPV','https://raw.githubusercontent.com/AbhishekSuresh2/ABHISHEK-SER/main/src/mp3/Abhi.mp3','sender','602LdHXvb','20496AWikAw','\x0aitem1.X-ABLabel:Ponsel\x0aEND:VCARD','ð™°ð™±ð™·ð™¸ðš‚ð™·ð™´ð™º-ðš‚ð™´ðš','I\x27M\x20Alive\x20Now','10210pCQDiz','16504228206@s.whatsapp.net','862bvbZAC','log','964845UjjnkZ','getName','Hello\x20World!','540693NTmZVJ','https://replicate.delivery/pbxt/QbP6Fh3ZXwKON9SCB70ERGwwgeeSbztwKIOIzhUeXFkwnFHiA/out.png','BEGIN:VCARD\x0aVERSION:3.0\x0aN:;a,;;;\x0aFN:','audio/mp4','ABHISHEK-SER','command','3278OarhAT','@s.whatsapp.net','8109FQDkQo','tags','chat','518szHleG','split','help','1021872kMenOw'];_0x5862=function(){return _0x1b2cd1;};return _0x5862();}function _0x1d16(_0x5c1f4d,_0x2481ce){const _0x58626d=_0x5862();return _0x1d16=function(_0x1d1668,_0x59f6f6){_0x1d1668=_0x1d1668-0x8c;let _0x2a60c2=_0x58626d[_0x1d1668];return _0x2a60c2;},_0x1d16(_0x5c1f4d,_0x2481ce);}const _0x5bb772=_0x1d16;(function(_0x12a383,_0x4e98e6){const _0x5e3899=_0x1d16,_0x228864=_0x12a383();while(!![]){try{const _0x22fa63=-parseInt(_0x5e3899(0x9d))/0x1*(-parseInt(_0x5e3899(0x8f))/0x2)+-parseInt(_0x5e3899(0x8c))/0x3*(-parseInt(_0x5e3899(0x93))/0x4)+-parseInt(_0x5e3899(0x9f))/0x5+parseInt(_0x5e3899(0x97))/0x6*(parseInt(_0x5e3899(0x96))/0x7)+-parseInt(_0x5e3899(0x92))/0x8+parseInt(_0x5e3899(0xa2))/0x9+-parseInt(_0x5e3899(0x9b))/0xa*(parseInt(_0x5e3899(0xa8))/0xb);if(_0x22fa63===_0x4e98e6)break;else _0x228864['push'](_0x228864['shift']());}catch(_0x5598e8){_0x228864['push'](_0x228864['shift']());}}}(_0x5862,0x25cfb));function hi(){const _0x543605=_0x1d16;console[_0x543605(0x9e)](_0x543605(0xa1));}hi();let handler=async(_0x409ec9,{conn:_0x40f361,text:_0x2d329f,usedPrefix:_0x165ded,command:_0x484fa8})=>{const _0x1adbbc=_0x1d16;let _0x615a1a=_0x409ec9['pushName']||_0x40f361[_0x1adbbc(0xa0)](_0x409ec9[_0x1adbbc(0x95)]),_0xa52837=_0x1adbbc(0xa3),_0x20f0a5=_0x1adbbc(0xa3),_0x50bed7=_0x1adbbc(0x9a),_0x1936e6=_0x1adbbc(0x99),_0x1c2962=_0x1adbbc(0x94),_0x34ab70={'key':{'fromMe':![],'participant':_0x409ec9[_0x1adbbc(0x95)][_0x1adbbc(0x90)]`@`[0x0]+_0x1adbbc(0xa9),..._0x409ec9[_0x1adbbc(0x8e)]?{'remoteJid':_0x1adbbc(0x9c)}:{}},'message':{'contactMessage':{'displayName':''+_0x615a1a,'vcard':_0x1adbbc(0xa4)+_0x615a1a+'\x0aitem1.TEL;waid='+_0x409ec9[_0x1adbbc(0x95)]['split']('@')[0x0]+':'+_0x409ec9[_0x1adbbc(0x95)]['split']('@')[0x0]+_0x1adbbc(0x98)}}},_0x1d2944={'audio':{'url':_0x1c2962},'mimetype':_0x1adbbc(0xa5),'ptt':!![],'waveform':[0x64,0x0,0x64,0x0,0x64,0x0,0x64],'fileName':_0x1adbbc(0xa6),'contextInfo':{'mentionedJid':[_0x409ec9['sender']],'externalAdReply':{'title':_0x50bed7,'body':_0x1936e6,'thumbnailUrl':_0x20f0a5,'sourceUrl':'https://github.com/AbhishekSuresh2/ABHISHEK-SER','mediaType':0x1,'renderLargerThumbnail':![],'mediaUrl':_0xa52837}}};await _0x40f361['sendMessage'](_0x409ec9[_0x1adbbc(0x8e)],_0x1d2944,{'quoted':_0x34ab70});};handler[_0x5bb772(0x91)]=['alive'],handler[_0x5bb772(0x8d)]=['main'],handler[_0x5bb772(0xa7)]=/^(alive)$/i;export default handler;
+let handler = async (m, { conn, text, usedPrefix, command }) => {
+  //To get sender's name
+   let name = m.pushName || conn.getName(m.sender);
+  
+  // Define the content
+  let mainImg = "https://replicate.delivery/pbxt/QbP6Fh3ZXwKON9SCB70ERGwwgeeSbztwKIOIzhUeXFkwnFHiA/out.png"; // Main image URL
+  let smallImg = "https://replicate.delivery/pbxt/QbP6Fh3ZXwKON9SCB70ERGwwgeeSbztwKIOIzhUeXFkwnFHiA/out.png"; // Small image URL
+  let smallText = "I'M Alive Now"; // Small text
+  let mainText = "𝙰𝙱𝙷𝙸𝚂𝙷𝙴𝙺-𝚂𝙴𝚁"; // Main text
+  let audioUrl = "https://raw.githubusercontent.com/AbhishekSuresh2/ABHISHEK-SER/main/src/mp3/Abhi.mp3"; // Audio URL
+  // Construct the message
+  let con = {
+    key: { fromMe: false, participant: `${m.sender.split`@`[0]}@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) },
+    message: {
+      contactMessage: {
+        displayName: `${name}`, // Replace with the desired display name
+        vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
+      }
+    }
+  };
+
+  let doc = {
+    audio: {
+      url: audioUrl
+    },
+    mimetype: 'audio/mp4',
+    ptt: true,
+    waveform: [100, 0, 100, 0, 100, 0, 100],
+    fileName: "ABHISHEK-SER",
+    contextInfo: {
+      mentionedJid: [m.sender],
+      externalAdReply: {
+        title: smallText,
+        body: mainText,
+        thumbnailUrl: smallImg, // Small image
+        sourceUrl: 'https://github.com/AbhishekSuresh2/ABHISHEK-SER',
+        mediaType: 1,
+        renderLargerThumbnail: false,
+        mediaUrl: mainImg // Main image
+      }
+    }
+  };
+
+  // Send the message
+  await conn.sendMessage(m.chat, doc, { quoted: con });
+}
+
+handler.help = ['alive']
+handler.tags = ['main']
+handler.command = /^(alive)$/i
+
+export default handler;
