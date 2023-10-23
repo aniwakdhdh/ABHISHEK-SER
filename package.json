@@ -19,22 +19,22 @@
         "whatsapp",
         "js-whatsapp",
         "whatsapp",
-        "guru-bot",
-        "GURU-bot-md",
+        "md-bot",
+        "ABHISHEK-SER",
         "multi-device",
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/AbhishekSuresh2/ABHI-TEST-IT",
+    "homepage": "https://github.com/AbhishekSuresh2/ABHISHEK-SER",
     "author": {
         "name": "ABHISHEK SURESH"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/AbhishekSuresh2/ABHI-TEST-IT.git"
+        "url": "git+https://github.com/AbhishekSuresh2/ABHISHEK-SER.git"
     },
     "bugs": {
-        "url": "https://github.com/AbhishekSuresh2/ABHI-TEST-IT/issues"
+        "url": "https://github.com/AbhishekSuresh2/ABHISHEK-SER/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
