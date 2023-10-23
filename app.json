@@ -8,8 +8,6 @@
       "description": "Put Your SESSION_ID Here",
       "required": true,
       "value": ""
-  "logo": "https://replicate.delivery/pbxt/QbP6Fh3ZXwKON9SCB70ERGwwgeeSbztwKIOIzhUeXFkwnFHiA/out.png",
-  "keywords": ["bot", "whatsapp", "whatsapp-bot", "ABHISHEK-SER", "GURU-bot-md", "GURU-bot"],
   "buildpacks": [
     {
       "url": "heroku/nodejs"
