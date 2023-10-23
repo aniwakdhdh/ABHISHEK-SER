@@ -27,6 +27,7 @@ ABHISHEK-SER Multi Device Whatsapp Bot.
     <br>
 <a href="https://replit.com/@Abhibro1223344/ABHISHEK-SER-Bot-Pairing-Code?v=1"><img title="ABHISHEK-SER Pairing Code" src="https://img.shields.io/badge/SESSION ID-h?color=black&style=for-the-badge&logo=msi"></a>
 
+   <a href="https://youtu.be/3CoZMU2XcqQ?si=qu-DP5upo2E-JnNi"><img title="ABHISHEK-SER Pairing Code"    src="https://img.shields.io/badge/SESSION ID TUTORIAL-h?color=black&style=for-the-badge&logo=msi"></a>
 
 
 ## ABHISHEK-SER Deploy Method
