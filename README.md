@@ -106,3 +106,4 @@ SUPPORT GROUP: <a href="https://chat.whatsapp.com/BOLb0ICN3sAJ5dloRBw5VD"><img a
 
  ## If You Re Uploading Or Using Anything From This Bot Give Me Credits Athorwise I Will Take Action🎯
 
+Thanks To Guru(GURU WA BOT OWNER)
