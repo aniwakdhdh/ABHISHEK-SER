@@ -23,11 +23,10 @@ ABHISHEK-SER Multi Device Whatsapp Bot.
     <br>
 <a href="https://github.com/AbhishekSuresh2/ABHISHEK-SER/fork"><img title="ABHISHEK-SER" src="https://img.shields.io/badge/FORK ABHISHEK SER-h?color=black&style=for-the-badge&logo=stackshare"></a>
 
-2. Pair Your WhatsApp And Copy Session Id(You Will Get Session Id After Pairing)
+2. Scan The Qr Code And Upload abhi.data.json To Your Fork🎯(Will Recieve It On Your Bot Number After Scanning)
     <br>
-<a href="https://replit.com/@Abhibro1223344/ABHISHEK-SER-Bot-Pairing-Code?v=1"><img title="ABHISHEK-SER Pairing Code" src="https://img.shields.io/badge/SESSION ID-h?color=black&style=for-the-badge&logo=msi"></a>
+<a href="https://replit.com/@Abhibro1223344/ABHISHEK-SER-Bot-Qr-Code-Generator?v=1"><img title="ABHISHEK-SER Scan Qr" src="https://img.shields.io/badge/SCAN QR CODE-h?color=black&style=for-the-badge&logo=msi"></a>
 
-   <a href="https://youtu.be/3CoZMU2XcqQ?si=qu-DP5upo2E-JnNi"><img title="ABHISHEK-SER Pairing Code"    src="https://img.shields.io/badge/SESSION ID TUTORIAL-h?color=black&style=for-the-badge&logo=msi"></a>
 
 
 ## ABHISHEK-SER Deploy Method
@@ -106,3 +105,4 @@ SUPPORT GROUP: <a href="https://chat.whatsapp.com/BOLb0ICN3sAJ5dloRBw5VD"><img a
 - **Star ⭐ The Repo If You Like ABHISHEK-SER**
 
  ## If You Re Uploading Or Using Anything From This Bot Give Me Credits Athorwise I Will Take Action🎯
+
