@@ -3,6 +3,3 @@ node_modules
 package-lock.json
 abhi.data.json
 database.json
-.env
-session
-tmp
