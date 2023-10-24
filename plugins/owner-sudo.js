@@ -13,9 +13,9 @@ let handler = async (m, { conn, text }) => {
         mentions: conn.parseMention(caption)
     });
 }
-handler.help = ['sudo @user']
+handler.help = ['setsudo tag']
 handler.tags = ['owner']
-handler.command = /^sudo/i;
+handler.command = /^setsudo/i;
 handler.owner = true
 
 export default handler;
