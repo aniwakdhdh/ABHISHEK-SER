@@ -59,7 +59,7 @@ global.fgpyp = 'https://youtube.com/@comedymelodych8468'
 global.fglog = 'https://replicate.delivery/pbxt/QbP6Fh3ZXwKON9SCB70ERGwwgeeSbztwKIOIzhUeXFkwnFHiA/out.png' 
 
 //imagen
-global.imagen1 = fs.readFileSync('./src/Abhi.jpg')
+global.imagen1 = fs.readFileSync('https://i.imgur.com/7jaIfW3.jpeg')
 
 //Dont Edit Danger Zone⚠️
 global.wait = '*⌛ _Please Wait..._*'
