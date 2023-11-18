@@ -47,10 +47,10 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.botname = '𝙶𝙾𝙹𝙾 𝚂𝙰𝚃𝙾𝚁𝚄'
+global.botname = '𝕋𝕆𝔾𝔼 𝕀ℕ𝕌𝕄𝔸𝕂𝕀'
 global.premium = 'true'
-global.packname = '𝙶𝙾𝙹𝙾 𝚂𝙰𝚃𝙾𝚁𝚄' 
-global.author = '𝕋𝕆𝔾𝔼 𝕀ℕ𝕌𝕄𝔸𝕂𝕀' 
+global.packname = '𝕋𝕆𝔾𝔼 𝕀ℕ𝕌𝕄𝔸𝕂𝕀' 
+global.author = '@17245423663' 
 global.igfg = '▢ Follow on Instagram\nhttps://www.instagram.com/abhishek_ser\n' 
 global.dygp = 'https://chat.whatsapp.com/BOLb0ICN3sAJ5dloRBw5VD'
 global.fgsc = 'https://github.com/AbhishekSuresh2/ABHISHEK-SER' 
